@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="a" xml:space="preserve">
+    <value>À</value>
+  </data>
+  <data name="activity" xml:space="preserve">
+    <value>Activité</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>Tout</value>
+  </data>
+  <data name="batchSizeFinalProductTitle" xml:space="preserve">
+    <value>Taille des Lots par</value>
+  </data>
+  <data name="batchSizeParetoTitle" xml:space="preserve">
+    <value>Taille des Lots pour les</value>
+  </data>
+  <data name="batchSizeTitle" xml:space="preserve">
+    <value>Taille du lot</value>
+  </data>
+  <data name="cnqLineTitle" xml:space="preserve">
+    <value>CNQ par</value>
+  </data>
+  <data name="cnqParetoTitle" xml:space="preserve">
+    <value>CNQ pour les</value>
+  </data>
+  <data name="cnqTitle" xml:space="preserve">
+    <value>CNQ</value>
+  </data>
+  <data name="de" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="defect" xml:space="preserve">
+    <value>Défaut</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="exprtTo" xml:space="preserve">
+    <value>Exporter à</value>
+  </data>
+  <data name="familyDefect" xml:space="preserve">
+    <value>Famille Défaut</value>
+  </data>
+  <data name="filterTitle" xml:space="preserve">
+    <value>Ces Statistiques sont données selon les filtres suivants</value>
+  </data>
+  <data name="finalProduct" xml:space="preserve">
+    <value>Produit Fini</value>
+  </data>
+  <data name="generateFilters" xml:space="preserve">
+    <value>Générer les filtres</value>
+  </data>
+  <data name="generateStatistics" xml:space="preserve">
+    <value>Générer les statistiques</value>
+  </data>
+  <data name="init" xml:space="preserve">
+    <value>Initialisation</value>
+  </data>
+  <data name="jour" xml:space="preserve">
+    <value>Jour</value>
+  </data>
+  <data name="line" xml:space="preserve">
+    <value>Ligne</value>
+  </data>
+  <data name="maker" xml:space="preserve">
+    <value>Fournisseur</value>
+  </data>
+  <data name="mois" xml:space="preserve">
+    <value>Mois</value>
+  </data>
+  <data name="nbHeureTitle" xml:space="preserve">
+    <value>Nombre d`heures</value>
+  </data>
+  <data name="nbhLineTitle" xml:space="preserve">
+    <value>Nombre d'heure par</value>
+  </data>
+  <data name="nbhParetoTitle" xml:space="preserve">
+    <value>Nombre d'heure pour les</value>
+  </data>
+  <data name="nbhSecondeFinalProductTitle" xml:space="preserve">
+    <value>Nombre d'Heure par</value>
+  </data>
+  <data name="nbhSecondeParetoTitle" xml:space="preserve">
+    <value>Nombre d'Heure pour les</value>
+  </data>
+  <data name="nbInstruction" xml:space="preserve">
+    <value>Nombre d'instructions</value>
+  </data>
+  <data name="nbInstructionFinalProductTitle" xml:space="preserve">
+    <value>Nombre d\'Instruction par</value>
+  </data>
+  <data name="nbInstructionParetoTitle" xml:space="preserve">
+    <value>Nombre d'Instruction pour les</value>
+  </data>
+  <data name="nbMissionLineTitle" xml:space="preserve">
+    <value>Nombre de Mission par</value>
+  </data>
+  <data name="nbMissionParetoTitle" xml:space="preserve">
+    <value>Nombre de Mission pour les</value>
+  </data>
+  <data name="nbMissionTitle" xml:space="preserve">
+    <value>Nombre de missions</value>
+  </data>
+  <data name="nbNOKLineTitle" xml:space="preserve">
+    <value>Nombre de non conformité par</value>
+  </data>
+  <data name="nbNOKParetoTitle" xml:space="preserve">
+    <value>Nombre de non conformité pour les</value>
+  </data>
+  <data name="nbPVFinalProductTitle" xml:space="preserve">
+    <value>Nombre de PV par</value>
+  </data>
+  <data name="nbPVParetoTitle" xml:space="preserve">
+    <value>Nombre de PV pour les</value>
+  </data>
+  <data name="nbPVTitle" xml:space="preserve">
+    <value>Nombre de PV</value>
+  </data>
+  <data name="nbQRQCLineTitle" xml:space="preserve">
+    <value>Nombre d'e-QRAP par</value>
+  </data>
+  <data name="nbQRQCOpenLineTitle" xml:space="preserve">
+    <value>Nombre d'e-QRAP Ouvert par</value>
+  </data>
+  <data name="nbQRQCOpenParetoTitle" xml:space="preserve">
+    <value>Nombre d'e-QRAP Ouvert pour les</value>
+  </data>
+  <data name="nbQRQCOpenTitle" xml:space="preserve">
+    <value>Nombre d' e-QRAP ouverts</value>
+  </data>
+  <data name="nbQRQCParetoTitle" xml:space="preserve">
+    <value>Nombre d' e-QRAP pour les</value>
+  </data>
+  <data name="nbQRQCTitle" xml:space="preserve">
+    <value>Nombre d' e-QRAP</value>
+  </data>
+  <data name="nbRecLineTitle" xml:space="preserve">
+    <value>Nombre de Récurrence par</value>
+  </data>
+  <data name="nbRecParetoTitle" xml:space="preserve">
+    <value>Nombre de Récurrence pour les</value>
+  </data>
+  <data name="nbRecurrence" xml:space="preserve">
+    <value>Nombre de récurrence</value>
+  </data>
+  <data name="nokFinalProductTitle" xml:space="preserve">
+    <value>Nombre de piéces NOK par</value>
+  </data>
+  <data name="nokLineTitle" xml:space="preserve">
+    <value>Nombre de piéces NOK par</value>
+  </data>
+  <data name="nokParetoTitle" xml:space="preserve">
+    <value>Nombre de piéces NOK pour les</value>
+  </data>
+  <data name="nokTitle" xml:space="preserve">
+    <value>Nombre de piéces NOK</value>
+  </data>
+  <data name="Periode" xml:space="preserve">
+    <value>Période</value>
+  </data>
+  <data name="pour" xml:space="preserve">
+    <value>pour les</value>
+  </data>
+  <data name="ppmPieTitle" xml:space="preserve">
+    <value>Répartition des défauts pour les</value>
+  </data>
+  <data name="ppmTitle" xml:space="preserve">
+    <value>Répartition des défauts</value>
+  </data>
+  <data name="ppmTitle2" xml:space="preserve">
+    <value>PPM</value>
+  </data>
+  <data name="project" xml:space="preserve">
+    <value>Projet</value>
+  </data>
+  <data name="qteLineTitle" xml:space="preserve">
+    <value>Quantité Triée par</value>
+  </data>
+  <data name="qteParetoTitle" xml:space="preserve">
+    <value>Quantité Triée pour les</value>
+  </data>
+  <data name="quantityPrelev" xml:space="preserve">
+    <value>Quantité prélevée</value>
+  </data>
+  <data name="quarter" xml:space="preserve">
+    <value>Trimestre</value>
+  </data>
+  <data name="quntityPrelevFinalProductTitle" xml:space="preserve">
+    <value>Quantité Prelevé par</value>
+  </data>
+  <data name="quntityPrelevParetoTitle" xml:space="preserve">
+    <value>Quantité Prelevé pour les</value>
+  </data>
+  <data name="reference" xml:space="preserve">
+    <value>Composant</value>
+  </data>
+  <data name="retabAlert" xml:space="preserve">
+    <value>Les filtres et les graphs seront perdus !. &lt;/br&gt; Voulez vous vraiment continuer ?</value>
+  </data>
+  <data name="selectActivity" xml:space="preserve">
+    <value>Sélectionner une activité</value>
+  </data>
+  <data name="selectDefect" xml:space="preserve">
+    <value>Sélectionnez un défaut</value>
+  </data>
+  <data name="selected" xml:space="preserve">
+    <value>Sélectionnés</value>
+  </data>
+  <data name="selectFamilyDefect" xml:space="preserve">
+    <value>Sélectionner une famille défaut</value>
+  </data>
+  <data name="selectFinalProduct" xml:space="preserve">
+    <value>Sélectionner un Produit Fini</value>
+  </data>
+  <data name="selectLine" xml:space="preserve">
+    <value>Sélectionner une ligne</value>
+  </data>
+  <data name="selectMaker" xml:space="preserve">
+    <value>Sélectionner un fournisseur</value>
+  </data>
+  <data name="selectProject" xml:space="preserve">
+    <value>Sélectionner un projet</value>
+  </data>
+  <data name="selectReference" xml:space="preserve">
+    <value>Sélectionner un composant</value>
+  </data>
+  <data name="selectTimeAlert" xml:space="preserve">
+    <value>Vous dever choisir le temps par lequel les statistiques vont étre afficher</value>
+  </data>
+  <data name="selectTypeControl" xml:space="preserve">
+    <value>Sélectionner un type de contrôle</value>
+  </data>
+  <data name="selectTypeQRQC" xml:space="preserve">
+    <value>Sélectionner un type  e-QRAP</value>
+  </data>
+  <data name="sortedQuantityTitle" xml:space="preserve">
+    <value>Quantité triée par </value>
+  </data>
+  <data name="StatistqueAuditProduit" xml:space="preserve">
+    <value>Statistique Audit Produit</value>
+  </data>
+  <data name="StatistqueIncomingControl" xml:space="preserve">
+    <value>Statistique Controle par Echantillonnage</value>
+  </data>
+  <data name="StatistqueMission" xml:space="preserve">
+    <value>Statistique Contrôle 100%</value>
+  </data>
+  <data name="StatistqueQRQC" xml:space="preserve">
+    <value>Statistique e-QRAP</value>
+  </data>
+  <data name="tableStatTitle" xml:space="preserve">
+    <value>Les données selon les filtres sélectionnées</value>
+  </data>
+  <data name="time" xml:space="preserve">
+    <value>Temps</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="typeControl" xml:space="preserve">
+    <value>Controle</value>
+  </data>
+  <data name="typeQRQC" xml:space="preserve">
+    <value>Type  e-QRAP</value>
+  </data>
+  <data name="week" xml:space="preserve">
+    <value>Semaine</value>
+  </data>
+</root>

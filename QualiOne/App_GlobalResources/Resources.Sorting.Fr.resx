@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="ActiveInstruction" xml:space="preserve">
+    <value>êtes-vous sûr de vouloir active Instruction ?</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="AddControl" xml:space="preserve">
+    <value>Ajouter une action</value>
+  </data>
+  <data name="AddDef" xml:space="preserve">
+    <value>Ajouter un défaut</value>
+  </data>
+  <data name="AddDefect" xml:space="preserve">
+    <value>Ajouter un défaut</value>
+  </data>
+  <data name="AddDefectAndAction" xml:space="preserve">
+    <value>Ajout des défauts et actions</value>
+  </data>
+  <data name="AddDefectAndControl" xml:space="preserve">
+    <value>Ajout des défauts et actions</value>
+  </data>
+  <data name="AddGamme" xml:space="preserve">
+    <value>Ajouter  Gamme</value>
+  </data>
+  <data name="AddNewMission" xml:space="preserve">
+    <value>Ajouter une mission</value>
+  </data>
+  <data name="AddOperatorText" xml:space="preserve">
+    <value>Ajouter un contrôleur</value>
+  </data>
+  <data name="Advancement" xml:space="preserve">
+    <value>Avancement</value>
+  </data>
+  <data name="AlertImpossibleSupprimerDefautControler" xml:space="preserve">
+    <value>Ce défaut a déja ete contrôlé .Impossible de le supprimer.</value>
+  </data>
+  <data name="at" xml:space="preserve">
+    <value>au</value>
+  </data>
+  <data name="au" xml:space="preserve">
+    <value>Au</value>
+  </data>
+  <data name="batchDate" xml:space="preserve">
+    <value>Date lot</value>
+  </data>
+  <data name="batchNum" xml:space="preserve">
+    <value>N° de Lot</value>
+  </data>
+  <data name="buckupProblem" xml:space="preserve">
+    <value>Problème de sauvegarde</value>
+  </data>
+  <data name="Cadence" xml:space="preserve">
+    <value>Cadence</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Cancelselection" xml:space="preserve">
+    <value>Annuler la sélection</value>
+  </data>
+  <data name="Charge" xml:space="preserve">
+    <value>Client en charge</value>
+  </data>
+  <data name="ChoisirLigne" xml:space="preserve">
+    <value>Choisir Ligne</value>
+  </data>
+  <data name="ChooseDefectControlAlert" xml:space="preserve">
+    <value>Veuillez choisir le défaut et le contrôle</value>
+  </data>
+  <data name="chooseProject" xml:space="preserve">
+    <value>Choisissez le projet</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="CofirmDelDefectMission" xml:space="preserve">
+    <value>êtes-vous sûr de vouloir supprimer ce défaut?</value>
+  </data>
+  <data name="CofirmDelMedia" xml:space="preserve">
+    <value>êtes-vous sûr de vouloir supprimer cette media?</value>
+  </data>
+  <data name="CofirmUpdDefectMission" xml:space="preserve">
+    <value>êtes-vous sûr de vouloir modifer ce défaut?</value>
+  </data>
+  <data name="CofirmUpdDefectMissionControl" xml:space="preserve">
+    <value>êtes-vous sûr de vouloir modifer ce Controle?</value>
+  </data>
+  <data name="Composant" xml:space="preserve">
+    <value>Composant</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="ConfirmClosedMission" xml:space="preserve">
+    <value>êtes-vous sûr de vouloir clôturer cette mission?</value>
+  </data>
+  <data name="ConfirmDelMission" xml:space="preserve">
+    <value>êtes-vous sûr de vouloir supprimer cette mission?</value>
+  </data>
+  <data name="ConfirmDelOp" xml:space="preserve">
+    <value>êtes-vous sûr de vouloir supprimer cet operateur?</value>
+  </data>
+  <data name="ConfirmOpenMission" xml:space="preserve">
+    <value>êtes-vous sûr de vouloir réouvrire cette mission?</value>
+  </data>
+  <data name="ConfirmUpdateClosedMission" xml:space="preserve">
+    <value>Cette mission est Clôturé ête vous sûre de vouloire la modifier?</value>
+  </data>
+  <data name="ControlAction" xml:space="preserve">
+    <value>Action Contrôle</value>
+  </data>
+  <data name="ControlCodeText" xml:space="preserve">
+    <value>Action Contrôle</value>
+  </data>
+  <data name="ControlDescription" xml:space="preserve">
+    <value>Désignation de Contrôle</value>
+  </data>
+  <data name="ControledDefect" xml:space="preserve">
+    <value>Défaut à contrôler</value>
+  </data>
+  <data name="CSL" xml:space="preserve">
+    <value>CSL</value>
+  </data>
+  <data name="CustomerEmail" xml:space="preserve">
+    <value>E-mail Client</value>
+  </data>
+  <data name="CustomerInCharge" xml:space="preserve">
+    <value>Client en charge</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="dateNokRef" xml:space="preserve">
+    <value>Date par nok toute référence confondu du projet</value>
+  </data>
+  <data name="DateSorting" xml:space="preserve">
+    <value>Date de tri</value>
+  </data>
+  <data name="de" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="DefautsControler" xml:space="preserve">
+    <value>Défauts à contrôler</value>
+  </data>
+  <data name="DefctDesignation" xml:space="preserve">
+    <value>désignation de défaut</value>
+  </data>
+  <data name="Defect" xml:space="preserve">
+    <value>Défauts</value>
+  </data>
+  <data name="DefectCodeText" xml:space="preserve">
+    <value>Code Défaut</value>
+  </data>
+  <data name="DefectDiscription" xml:space="preserve">
+    <value>Désignation de Défaut</value>
+  </data>
+  <data name="DefectFamily" xml:space="preserve">
+    <value>Famille des Défauts</value>
+  </data>
+  <data name="DefectsControl" xml:space="preserve">
+    <value>Défaut à contrôler</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="DesactiveInstruction" xml:space="preserve">
+    <value>êtes-vous sûr de vouloir Desactive Instruction ?</value>
+  </data>
+  <data name="DesgnDefects" xml:space="preserve">
+    <value>Désignation Défaut</value>
+  </data>
+  <data name="Designation" xml:space="preserve">
+    <value>Désignation</value>
+  </data>
+  <data name="DesignControl" xml:space="preserve">
+    <value>Désignation Contrôle</value>
+  </data>
+  <data name="DetailedMission" xml:space="preserve">
+    <value>Mission détaillé</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Dupliquer</value>
+  </data>
+  <data name="EfficiencyOperator" xml:space="preserve">
+    <value>Efficacité de l'opérateur</value>
+  </data>
+  <data name="emailapplicant" xml:space="preserve">
+    <value>E-mail demandeur</value>
+  </data>
+  <data name="emptyLastName" xml:space="preserve">
+    <value>Le nom de famille ne peut pas être vide</value>
+  </data>
+  <data name="emptyRegistrationNumber" xml:space="preserve">
+    <value>Le numéro d'enregistrement ne peut pas être vide</value>
+  </data>
+  <data name="emtyName" xml:space="preserve">
+    <value>Le nom ne peut pas être vide</value>
+  </data>
+  <data name="EndingHour" xml:space="preserve">
+    <value>Heure de fin</value>
+  </data>
+  <data name="ErrorDuplication" xml:space="preserve">
+    <value>Impossible de dupliquer parce que les gammes ne sont pas compatibles. Une est 2D, l’autre est 3D</value>
+  </data>
+  <data name="existOperatorNumber" xml:space="preserve">
+    <value>Le numéro de contrôleur existe</value>
+  </data>
+  <data name="Family" xml:space="preserve">
+    <value>Famille</value>
+  </data>
+  <data name="FamilyAction" xml:space="preserve">
+    <value>Famille de Contrôle</value>
+  </data>
+  <data name="finalProduct" xml:space="preserve">
+    <value>Produit Fini</value>
+  </data>
+  <data name="FinalProductHaveMission" xml:space="preserve">
+    <value>Ce produit fini a déjà un firewall en cours de traitement. Veuillez d’abord le clôturer.</value>
+  </data>
+  <data name="FinalProductHaveMission2" xml:space="preserve">
+    <value>Ce produit fini a déjà un contrôle de production en cours de traitement. Veuillez d’abord le clôturer.</value>
+  </data>
+  <data name="FirewallDepliquer" xml:space="preserve">
+    <value>Ce firewall est déjà dupliqué</value>
+  </data>
+  <data name="FirewallDepliquer2" xml:space="preserve">
+    <value>Ce contrôle de production est déjà dupliqué</value>
+  </data>
+  <data name="FlagTitle" xml:space="preserve">
+    <value>Tri: Directive</value>
+  </data>
+  <data name="generateReport" xml:space="preserve">
+    <value>Générer un rapport</value>
+  </data>
+  <data name="HourPrice" xml:space="preserve">
+    <value>Prix de l'heure</value>
+  </data>
+  <data name="Imprimer" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Indice sur carton</value>
+  </data>
+  <data name="infoMission" xml:space="preserve">
+    <value>Info Mission</value>
+  </data>
+  <data name="infoSorting" xml:space="preserve">
+    <value>Info Tri / Retouche</value>
+  </data>
+  <data name="InstructionDesactive" xml:space="preserve">
+    <value>Cette instruction est active dans les CSLs suivantes. Vous devez d'abord la désactiver dans ces CLSs.</value>
+  </data>
+  <data name="instructions" xml:space="preserve">
+    <value>Ajouter Gamme</value>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Joindre</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Étiquette</value>
+  </data>
+  <data name="labelnumber" xml:space="preserve">
+    <value>N° étiquette</value>
+  </data>
+  <data name="Lignes" xml:space="preserve">
+    <value>Lignes</value>
+  </data>
+  <data name="line" xml:space="preserve">
+    <value>Ligne</value>
+  </data>
+  <data name="ListControls" xml:space="preserve">
+    <value>Liste des Contrôles</value>
+  </data>
+  <data name="ListDefectAndControl" xml:space="preserve">
+    <value>Liste des défauts et des contrôles</value>
+  </data>
+  <data name="ListMissionDefect" xml:space="preserve">
+    <value>Défauts à contrôler</value>
+  </data>
+  <data name="ListMissions" xml:space="preserve">
+    <value>Liste des missions</value>
+  </data>
+  <data name="location" xml:space="preserve">
+    <value>Lieux</value>
+  </data>
+  <data name="LotDate" xml:space="preserve">
+    <value>Date Lot</value>
+  </data>
+  <data name="LotNum" xml:space="preserve">
+    <value>Numero Lot</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Médias</value>
+  </data>
+  <data name="Mission" xml:space="preserve">
+    <value>Mission</value>
+  </data>
+  <data name="MissionList" xml:space="preserve">
+    <value>Liste des missions</value>
+  </data>
+  <data name="MissionLocation" xml:space="preserve">
+    <value>Lieu de la mission</value>
+  </data>
+  <data name="MissionPermission" xml:space="preserve">
+    <value>Qui peut voir la mission</value>
+  </data>
+  <data name="missionProblem" xml:space="preserve">
+    <value>Problème de récupération des missions</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="NB" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="NbHeure" xml:space="preserve">
+    <value>Nombre d'heure</value>
+  </data>
+  <data name="nc" xml:space="preserve">
+    <value>N.C</value>
+  </data>
+  <data name="NExisteMission" xml:space="preserve">
+    <value>Cette Misison n'existe pas</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="noFirewall" xml:space="preserve">
+    <value>Il n'y a pas de mur-qualité pour ce projet.</value>
+  </data>
+  <data name="noFirewall2" xml:space="preserve">
+    <value>Il n'y a pas de contrôle de production pour ce projet.</value>
+  </data>
+  <data name="nok" xml:space="preserve">
+    <value>Nok</value>
+  </data>
+  <data name="NOkMedia" xml:space="preserve">
+    <value>Media des pièces non conforme</value>
+  </data>
+  <data name="NOKRepair" xml:space="preserve">
+    <value>Répartition des pièces non conformes</value>
+  </data>
+  <data name="notProcessing" xml:space="preserve">
+    <value>Le statut de la mission n'est pas encore en cours de traitement</value>
+  </data>
+  <data name="NumLot" xml:space="preserve">
+    <value>N° Lot</value>
+  </data>
+  <data name="NumMission" xml:space="preserve">
+    <value>N° mission</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OkMedia" xml:space="preserve">
+    <value>Media des pièces conforme</value>
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Contrôleur</value>
+  </data>
+  <data name="operatorHasData" xml:space="preserve">
+    <value>Cet contrôleur est affecté à une ou plusieurs missions de tri</value>
+  </data>
+  <data name="operatorProb" xml:space="preserve">
+    <value>Problème de récupération du contrôleur</value>
+  </data>
+  <data name="Operators" xml:space="preserve">
+    <value>Les contrôleurs</value>
+  </data>
+  <data name="operator_lists" xml:space="preserve">
+    <value>Liste des contrôleurs</value>
+  </data>
+  <data name="OrderNumber" xml:space="preserve">
+    <value>Numéro bon de commande</value>
+  </data>
+  <data name="per" xml:space="preserve">
+    <value>par</value>
+  </data>
+  <data name="PPM" xml:space="preserve">
+    <value>PPM</value>
+  </data>
+  <data name="ppmCount" xml:space="preserve">
+    <value>Somme des PPM</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="Priorite" xml:space="preserve">
+    <value>Priorité</value>
+  </data>
+  <data name="problemLogin" xml:space="preserve">
+    <value>Problème de connexion</value>
+  </data>
+  <data name="ProduitFini" xml:space="preserve">
+    <value>Produit Fini</value>
+  </data>
+  <data name="progress" xml:space="preserve">
+    <value>Avancement</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Projet</value>
+  </data>
+  <data name="Projet" xml:space="preserve">
+    <value>Projet</value>
+  </data>
+  <data name="qtNOK" xml:space="preserve">
+    <value>Quantités Non conforme</value>
+  </data>
+  <data name="qtOK" xml:space="preserve">
+    <value>Quantités Conforme</value>
+  </data>
+  <data name="qtSorted" xml:space="preserve">
+    <value>Quantités Triées</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantités</value>
+  </data>
+  <data name="QuantityGranted" xml:space="preserve">
+    <value>Quantités accordées</value>
+  </data>
+  <data name="reference" xml:space="preserve">
+    <value>Référence</value>
+  </data>
+  <data name="ReferenceHaveMission" xml:space="preserve">
+    <value>Ce reference a déjà un firewall en cours de traitement. Veuillez d’abord le clôturer.</value>
+  </data>
+  <data name="ReferenceHaveMission2" xml:space="preserve">
+    <value>Ce reference a déjà un contrôle de production en cours de traitement. Veuillez d’abord le clôturer.</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Rafraîchir</value>
+  </data>
+  <data name="RegNumber" xml:space="preserve">
+    <value>Matricule</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="ReportTilte" xml:space="preserve">
+    <value>Rapport de tri/ retouche</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Chercher</value>
+  </data>
+  <data name="selectFinalProduct" xml:space="preserve">
+    <value>Sélectionner un Produit Fini</value>
+  </data>
+  <data name="selectSemiFinalProduct" xml:space="preserve">
+    <value>Sélectionner un Produit semi Fini</value>
+  </data>
+  <data name="SelectLine" xml:space="preserve">
+    <value>Sélectionner une ligne</value>
+  </data>
+  <data name="SelectNonCorectPiece" xml:space="preserve">
+    <value>Sélectionner les pièces non conforme</value>
+  </data>
+  <data name="SelectOtherPiece" xml:space="preserve">
+    <value>Sélectionner une autre pièce</value>
+  </data>
+  <data name="SelectPiece" xml:space="preserve">
+    <value>Sélectionner les pièces conforme</value>
+  </data>
+  <data name="SelectProject" xml:space="preserve">
+    <value>Sélectionner un projet</value>
+  </data>
+  <data name="SelectReference" xml:space="preserve">
+    <value>Sélectionner un composant</value>
+  </data>
+  <data name="SelectWarning" xml:space="preserve">
+    <value>Sélectionner un défaut de mission dans la liste!</value>
+  </data>
+  <data name="SommeNOK" xml:space="preserve">
+    <value>Somme des NOK</value>
+  </data>
+  <data name="sortedQuantity" xml:space="preserve">
+    <value>Somme des quantités triées</value>
+  </data>
+  <data name="SortingAdvencement" xml:space="preserve">
+    <value>Avencement de tri</value>
+  </data>
+  <data name="SortingResult" xml:space="preserve">
+    <value>Résultat de tri</value>
+  </data>
+  <data name="SourceMission" xml:space="preserve">
+    <value>Mission source</value>
+  </data>
+  <data name="startingdate" xml:space="preserve">
+    <value>Date du début</value>
+  </data>
+  <data name="StartingHour" xml:space="preserve">
+    <value>Heure de début</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statstiques</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="Totale" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="Traversement" xml:space="preserve">
+    <value>Traversement</value>
+  </data>
+  <data name="triProblem" xml:space="preserve">
+    <value>Probléme de récupération des tries</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="UpdateAndValidate" xml:space="preserve">
+    <value>Modifier et valider</value>
+  </data>
+  <data name="UpdateDefect" xml:space="preserve">
+    <value>Modifier les défauts</value>
+  </data>
+  <data name="UpdateInstructionFirewall" xml:space="preserve">
+    <value>Pour pouvoir changer cette instruction, vous devez d'abord la modifier dans la CSL prédédente.</value>
+  </data>
+  <data name="UpdateInstructionFirewall2" xml:space="preserve">
+    <value>Pour pouvoir changer cette instruction, vous devez d'abord la modifier dans la Poste prédédente.</value>
+  </data>
+  <data name="updateInstructions" xml:space="preserve">
+    <value>Editer Gamme</value>
+  </data>
+  <data name="UpdateMission" xml:space="preserve">
+    <value>Modifier la mission</value>
+  </data>
+  <data name="UpdateMissionText" xml:space="preserve">
+    <value>Modifier une Mission</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Avertissement</value>
+  </data>
+  <data name="WarningMissionWithNoDefects" xml:space="preserve">
+    <value>Cette mission n'a pas de défauts. Veuillez la mettre à jour et puis réessayez.</value>
+  </data>
+  <data name="WarningSelectMission" xml:space="preserve">
+    <value>Sélectionner une mission dans la liste</value>
+  </data>
+  <data name="WarningUserDeleteMission" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer cette mission</value>
+  </data>
+  <data name="WarningUserUpdateMission" xml:space="preserve">
+    <value>Vous ne pouvez pas mettre à jour cette mission</value>
+  </data>
+  <data name="WhoCanSeeMission" xml:space="preserve">
+    <value>Sélectioner qui peut voir la mission</value>
+  </data>
+  <data name="WorningSelectOperator" xml:space="preserve">
+    <value>Sélectionner un contrôleur dans la liste</value>
+  </data>
+</root>

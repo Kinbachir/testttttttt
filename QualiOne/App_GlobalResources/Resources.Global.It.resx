@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>Azione</value>
+  </data>
+  <data name="ActionHandlerUser" xml:space="preserve">
+    <value>Utente gestore di azioni</value>
+  </data>
+  <data name="ActionPlanCollaborator" xml:space="preserve">
+    <value>Piano d'azione dei collaboratori</value>
+  </data>
+  <data name="Activities" xml:space="preserve">
+    <value>Attività</value>
+  </data>
+  <data name="AddAction" xml:space="preserve">
+    <value>Aggiungi azione</value>
+  </data>
+  <data name="AddProductionControl" xml:space="preserve">
+    <value>Aggiungi controlli</value>
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>Amministratore</value>
+  </data>
+  <data name="Advancement" xml:space="preserve">
+    <value>Avanzamento</value>
+  </data>
+  <data name="AlertAddMediaDefect" xml:space="preserve">
+    <value>Vuoi aggiungere contenuti multimediali ?</value>
+  </data>
+  <data name="AnalyseComponent" xml:space="preserve">
+    <value>Analisi dei componenti</value>
+  </data>
+  <data name="AnalyseFinalProduct" xml:space="preserve">
+    <value>Analizza il prodotto finale</value>
+  </data>
+  <data name="AssignedTo" xml:space="preserve">
+    <value>Assegnato a</value>
+  </data>
+  <data name="BatchBatchDate" xml:space="preserve">
+    <value>Lotto / data lotto (i)</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Bloccato</value>
+  </data>
+  <data name="BlockedReference" xml:space="preserve">
+    <value>Riferimenti bloccati</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>Annullato</value>
+  </data>
+  <data name="ChooseComponentAlert" xml:space="preserve">
+    <value>Scegli un componente dall'elenco</value>
+  </data>
+  <data name="ChooseEndDate" xml:space="preserve">
+    <value>Scegli la data di fine</value>
+  </data>
+  <data name="ChooseFinalProductAlert" xml:space="preserve">
+    <value>Si prega di scegliere il prodotto finale dall'elenco</value>
+  </data>
+  <data name="ChooseStartDate" xml:space="preserve">
+    <value>Scegli la data di inizio</value>
+  </data>
+  <data name="Cible" xml:space="preserve">
+    <value>Bersalio</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Scherma</value>
+  </data>
+  <data name="CNQ" xml:space="preserve">
+    <value>CPQ</value>
+  </data>
+  <data name="completeReference" xml:space="preserve">
+    <value>Vuoi completarlo</value>
+  </data>
+  <data name="ComponentAnalysis" xml:space="preserve">
+    <value>Analisi dei componenti</value>
+  </data>
+  <data name="ComponentGammeInstruction" xml:space="preserve">
+    <value>Componente e controlli</value>
+  </data>
+  <data name="ComponentList" xml:space="preserve">
+    <value>Elenco dei componenti</value>
+  </data>
+  <data name="Components" xml:space="preserve">
+    <value>Componenti</value>
+  </data>
+  <data name="Compression" xml:space="preserve">
+    <value>Compressione</value>
+  </data>
+  <data name="Constatation" xml:space="preserve">
+    <value>Accertamento</value>
+  </data>
+  <data name="Controleur" xml:space="preserve">
+    <value>Controller</value>
+  </data>
+  <data name="CurrentGamme" xml:space="preserve">
+    <value>Controlli attuali</value>
+  </data>
+  <data name="CustomerIncident" xml:space="preserve">
+    <value>Incidente / i del cliente</value>
+  </data>
+  <data name="CustomerIncidentsperWeek" xml:space="preserve">
+    <value>Incidenti dei clienti a settimana</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Pannello di controllo</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DateDebut" xml:space="preserve">
+    <value>Data d'inizio</value>
+  </data>
+  <data name="DateRapport" xml:space="preserve">
+    <value>Data rapporto</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Scadenza</value>
+  </data>
+  <data name="DefectCode" xml:space="preserve">
+    <value>Codice difetto</value>
+  </data>
+  <data name="DeletedMesure" xml:space="preserve">
+    <value>Misura eliminata</value>
+  </data>
+  <data name="Denied" xml:space="preserve">
+    <value>Negato</value>
+  </data>
+  <data name="Deny" xml:space="preserve">
+    <value>Negare</value>
+  </data>
+  <data name="Derogation" xml:space="preserve">
+    <value>Deroga</value>
+  </data>
+  <data name="DerogationDetails" xml:space="preserve">
+    <value>Dettagli sulla deroga</value>
+  </data>
+  <data name="DerogationNumber" xml:space="preserve">
+    <value>Numero di deroga</value>
+  </data>
+  <data name="DerogationObject" xml:space="preserve">
+    <value>Oggetto di deroga</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="deuxModele" xml:space="preserve">
+    <value>Questo riferimento ha due modelli 2D e 3D, con quale modello vuoi analizzare</value>
+  </data>
+  <data name="Dimensionel" xml:space="preserve">
+    <value>Dimensionale</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>Direttore</value>
+  </data>
+  <data name="Displaying" xml:space="preserve">
+    <value>Visualizzazione</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Durata</value>
+  </data>
+  <data name="EffortMainOeuvres" xml:space="preserve">
+    <value>Sforzo di lavoro</value>
+  </data>
+  <data name="Electrique" xml:space="preserve">
+    <value>elettrico</value>
+  </data>
+  <data name="ErreurProduitStatistique" xml:space="preserve">
+    <value>Si è verificato un errore durante la generazione delle statistiche</value>
+  </data>
+  <data name="EtudeCapabilites" xml:space="preserve">
+    <value>Studio delle capacità</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Scaduta</value>
+  </data>
+  <data name="FinalProduct" xml:space="preserve">
+    <value>Prodotto finale</value>
+  </data>
+  <data name="FinalProductAnalysis" xml:space="preserve">
+    <value>Analisi del prodotto finale</value>
+  </data>
+  <data name="FinalProductGammeInstruction" xml:space="preserve">
+    <value>Prodotto finale e controlli</value>
+  </data>
+  <data name="FinalProducts" xml:space="preserve">
+    <value>Prodotti finali</value>
+  </data>
+  <data name="finMission" xml:space="preserve">
+    <value>Data di fine</value>
+  </data>
+  <data name="Firewall" xml:space="preserve">
+    <value>Muro di qualità</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Bandiera</value>
+  </data>
+  <data name="FMEADesign" xml:space="preserve">
+    <value>Progettazione FMEA</value>
+  </data>
+  <data name="FmeaLink" xml:space="preserve">
+    <value>FMEA</value>
+  </data>
+  <data name="FMEAProcess" xml:space="preserve">
+    <value>Processo FMEA</value>
+  </data>
+  <data name="GammeToBeValidated" xml:space="preserve">
+    <value>Nuovi controlli da convalidare</value>
+  </data>
+  <data name="GM" xml:space="preserve">
+    <value>Buon Giorno</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>analizzare</value>
+  </data>
+  <data name="Ignore" xml:space="preserve">
+    <value>Ignorare</value>
+  </data>
+  <data name="Ignored" xml:space="preserve">
+    <value>Ignorato</value>
+  </data>
+  <data name="IncidentsClientSemaine" xml:space="preserve">
+    <value>Incidenti dei clienti a settimana</value>
+  </data>
+  <data name="IncidentSecuitySemaine" xml:space="preserve">
+    <value>Incidenti di sicurezza a settimana</value>
+  </data>
+  <data name="IncomingControl" xml:space="preserve">
+    <value>Controllo della ricezione</value>
+  </data>
+  <data name="IncompletedReference" xml:space="preserve">
+    <value>Questo riferimento è incompleto</value>
+  </data>
+  <data name="Inertie" xml:space="preserve">
+    <value>Inerzia</value>
+  </data>
+  <data name="InformationGeneral" xml:space="preserve">
+    <value>Informazioni generali</value>
+  </data>
+  <data name="InformationMission" xml:space="preserve">
+    <value>Informazioni sulla missione</value>
+  </data>
+  <data name="InProgress" xml:space="preserve">
+    <value>In corso</value>
+  </data>
+  <data name="IntervalleMoyenne" xml:space="preserve">
+    <value>Intervallo medio</value>
+  </data>
+  <data name="IntervallesConfiance" xml:space="preserve">
+    <value>Intervalli di confidenza</value>
+  </data>
+  <data name="items" xml:space="preserve">
+    <value>elementi</value>
+  </data>
+  <data name="Labo" xml:space="preserve">
+    <value>laboratorio</value>
+  </data>
+  <data name="LayoutList" xml:space="preserve">
+    <value>Elenco dei layout</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Linea</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>il collegamento</value>
+  </data>
+  <data name="ListeActionfirewall" xml:space="preserve">
+    <value>Elenco dei piani d'azione del muro di qualità</value>
+  </data>
+  <data name="ListFiraWall" xml:space="preserve">
+    <value>Elenco dei muri di qualità</value>
+  </data>
+  <data name="ListFiraWall2" xml:space="preserve">
+    <value>Liste des Contrôles de production</value>
+  </data>
+  <data name="listLabos" xml:space="preserve">
+    <value>Elenco prova</value>
+  </data>
+  <data name="ListProductionControl" xml:space="preserve">
+    <value>Elenco dei controlli </value>
+  </data>
+  <data name="maxi" xml:space="preserve">
+    <value>massimo</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="Mini" xml:space="preserve">
+    <value>Minimo</value>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>Modificato</value>
+  </data>
+  <data name="Module" xml:space="preserve">
+    <value>Modulo</value>
+  </data>
+  <data name="Moyenne" xml:space="preserve">
+    <value>medio</value>
+  </data>
+  <data name="MyPageTile" xml:space="preserve">
+    <value>Elenco di utenti connessi</value>
+  </data>
+  <data name="nbrQRQCSemaine" xml:space="preserve">
+    <value>Numero E-QRAP a settimana</value>
+  </data>
+  <data name="ncWithoutValue" xml:space="preserve">
+    <value>NC other without value (IT)</value>
+  </data>
+  <data name="ncWithValue" xml:space="preserve">
+    <value>NC other with value (IT)</value>
+  </data>
+  <data name="NEsixtComposant" xml:space="preserve">
+    <value>Questo componente non esiste</value>
+  </data>
+  <data name="NEsixteFinalProduct" xml:space="preserve">
+    <value>Questo prodotto finale non esiste</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="NewAction" xml:space="preserve">
+    <value>Nuova azione</value>
+  </data>
+  <data name="NomMesure" xml:space="preserve">
+    <value>Nome della misura</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="NumberQRQCPerWeek" xml:space="preserve">
+    <value>Numero di E-QRAP a settimana</value>
+  </data>
+  <data name="Objective" xml:space="preserve">
+    <value>obiettivo</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>di</value>
+  </data>
+  <data name="Origin" xml:space="preserve">
+    <value>Origine</value>
+  </data>
+  <data name="OwnActionPlan" xml:space="preserve">
+    <value>Piano d'azione proprio</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Pagina</value>
+  </data>
+  <data name="PiedPDF1" xml:space="preserve">
+    <value>Report generato automaticamente da QUALIONE</value>
+  </data>
+  <data name="PiedPDF2" xml:space="preserve">
+    <value>Documento generato in data</value>
+  </data>
+  <data name="ProductAudit" xml:space="preserve">
+    <value>Audit del prodotto</value>
+  </data>
+  <data name="ProductionControl" xml:space="preserve">
+    <value>Controlli di produzione</value>
+  </data>
+  <data name="Progression" xml:space="preserve">
+    <value>Progressione</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Progetto</value>
+  </data>
+  <data name="Proposition" xml:space="preserve">
+    <value>Proposizione</value>
+  </data>
+  <data name="Provenance" xml:space="preserve">
+    <value>Provenienza</value>
+  </data>
+  <data name="QRQC" xml:space="preserve">
+    <value>E-QRAP</value>
+  </data>
+  <data name="QRQCLink" xml:space="preserve">
+    <value>E-QRAP</value>
+  </data>
+  <data name="QteTri" xml:space="preserve">
+    <value>Ordinamento quantità</value>
+  </data>
+  <data name="QualiFourIncomingcontrolcontroldenied" xml:space="preserve">
+    <value>QualiFour: Controlli di controllo in entrata negati</value>
+  </data>
+  <data name="QualiFourMissionDenied" xml:space="preserve">
+    <value>QualiFour: Missione negata</value>
+  </data>
+  <data name="QualiFourNewderogationDenied" xml:space="preserve">
+    <value>QualiFour: Nuova deroga negata</value>
+  </data>
+  <data name="QualiFourNewDerogationWaitingValidation" xml:space="preserve">
+    <value>QualiFour: Una nuova deroga è in attesa di essere convalidata</value>
+  </data>
+  <data name="QualiFourNewIncomingGammeWaitingValidation" xml:space="preserve">
+    <value>QualiFour: Nuova Gamma di controllo in attesa della tua convalida</value>
+  </data>
+  <data name="QualiFourNewmissionWaitingValidation" xml:space="preserve">
+    <value>QualiFour: Nuova missione in attesa della tua convalida</value>
+  </data>
+  <data name="QualiFourNewProductGammeWaitingValidation" xml:space="preserve">
+    <value>QualiFour: Nuova Gamma di audit del prodotto in attesa della tua convalida</value>
+  </data>
+  <data name="QualiFourProductauditcontrolsdenied" xml:space="preserve">
+    <value>QualiFour: Controlli di audit del prodotto negati</value>
+  </data>
+  <data name="QualiOne" xml:space="preserve">
+    <value>QualiOne</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantità</value>
+  </data>
+  <data name="Realisation" xml:space="preserve">
+    <value>Realizzazione</value>
+  </data>
+  <data name="ReceptionLink" xml:space="preserve">
+    <value>Controllo tramite campionamento</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Riferimento</value>
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Osservazione</value>
+  </data>
+  <data name="Repoortfirewall" xml:space="preserve">
+    <value>Rapporto sul muro di qualità</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Rapporto</value>
+  </data>
+  <data name="Resultat" xml:space="preserve">
+    <value>Risultato</value>
+  </data>
+  <data name="ResultatStatistique" xml:space="preserve">
+    <value>Risultato statistico</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="SecurityIncident" xml:space="preserve">
+    <value>Incidente di sicurezza</value>
+  </data>
+  <data name="SecurityIncidentPerWeek" xml:space="preserve">
+    <value>Incidente di sicurezza a settimana</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>seleziona la data</value>
+  </data>
+  <data name="SelectMesure" xml:space="preserve">
+    <value>Seleziona una misura</value>
+  </data>
+  <data name="SelectStatus" xml:space="preserve">
+    <value>Seleziona Stato</value>
+  </data>
+  <data name="SelectUser" xml:space="preserve">
+    <value>Seleziona Utente</value>
+  </data>
+  <data name="SemiFinalGammeInstruction" xml:space="preserve">
+    <value>Semilavorati, Gamma e Istruzioni</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Affiggere</value>
+  </data>
+  <data name="Show3DViewer" xml:space="preserve">
+    <value>Mostra visualizzatore 3D</value>
+  </data>
+  <data name="ShowValidations" xml:space="preserve">
+    <value>Visualizza convalida</value>
+  </data>
+  <data name="ShowViewer" xml:space="preserve">
+    <value>Mostra visualizzatore 3D</value>
+  </data>
+  <data name="sigma" xml:space="preserve">
+    <value>sigma</value>
+  </data>
+  <data name="sigmaG" xml:space="preserve">
+    <value>sigma Global</value>
+  </data>
+  <data name="SortingBase" xml:space="preserve">
+    <value>Base di smistamento</value>
+  </data>
+  <data name="SortingBaseLink" xml:space="preserve">
+    <value>Controlo 100%</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistiche</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="Statusfirewall" xml:space="preserve">
+    <value>Stato della parete di qualità</value>
+  </data>
+  <data name="Suggestion" xml:space="preserve">
+    <value>Suggerimento</value>
+  </data>
+  <data name="SuggestionsQualiOne" xml:space="preserve">
+    <value>Suggerimenti QualiOne</value>
+  </data>
+  <data name="TailleEchantillons" xml:space="preserve">
+    <value>Misura di prova</value>
+  </data>
+  <data name="TeamValidation" xml:space="preserve">
+    <value>Team dio convalida</value>
+  </data>
+  <data name="TempAloue" xml:space="preserve">
+    <value>Tempo a disposizione</value>
+  </data>
+  <data name="TitlePdfeQRQC" xml:space="preserve">
+    <value>Statistique E-QRAP</value>
+  </data>
+  <data name="TitlePdfeSorting" xml:space="preserve">
+    <value>Statistiche di ordinamento</value>
+  </data>
+  <data name="Titre1Static" xml:space="preserve">
+    <value>Riepilogo dello stato delle istruzioni</value>
+  </data>
+  <data name="titrePDFAP" xml:space="preserve">
+    <value>Statistiche di audit del prodotto</value>
+  </data>
+  <data name="titrePDFControlReception" xml:space="preserve">
+    <value>Statistiche di controllo della ricezione</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>per</value>
+  </data>
+  <data name="ToCompleted" xml:space="preserve">
+    <value>A Completare</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Oggi</value>
+  </data>
+  <data name="ToValidate" xml:space="preserve">
+    <value>Per Convalidare</value>
+  </data>
+  <data name="Traction" xml:space="preserve">
+    <value>Trazione</value>
+  </data>
+  <data name="Transmitter" xml:space="preserve">
+    <value>Trasmettitore</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Aggiornare</value>
+  </data>
+  <data name="UpdateAction" xml:space="preserve">
+    <value>Aggiorna azione</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Convalidare</value>
+  </data>
+  <data name="Validated" xml:space="preserve">
+    <value>Convalidato</value>
+  </data>
+  <data name="ValidatedAfterBy" xml:space="preserve">
+    <value>Convalidato dopo da</value>
+  </data>
+  <data name="ValidatedBy" xml:space="preserve">
+    <value>Già convalidato da</value>
+  </data>
+  <data name="Validation" xml:space="preserve">
+    <value>Validazione</value>
+  </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>In attesa</value>
+  </data>
+  <data name="WaitingPreviousValidation" xml:space="preserve">
+    <value>In attesa di ulteriore convalida</value>
+  </data>
+  <data name="WaitingValidation" xml:space="preserve">
+    <value>In attesa di convalida da</value>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Ssettimana</value>
+  </data>
+</root>

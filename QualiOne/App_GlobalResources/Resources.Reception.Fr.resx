@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="a" xml:space="preserve">
+    <value>au</value>
+  </data>
+  <data name="AcceptDerogation" xml:space="preserve">
+    <value>Accepté sous dérogation</value>
+  </data>
+  <data name="Actif" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="active" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="activityMode" xml:space="preserve">
+    <value>Mode Activé</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="AddComponent" xml:space="preserve">
+    <value>Ajouter un composant</value>
+  </data>
+  <data name="addControl" xml:space="preserve">
+    <value>Ajouter un Contrôle</value>
+  </data>
+  <data name="addDefect" xml:space="preserve">
+    <value>Ajouter un défaut</value>
+  </data>
+  <data name="addDerogation" xml:space="preserve">
+    <value>Ajouter une nouvelle dérogation</value>
+  </data>
+  <data name="addDerogationBtn" xml:space="preserve">
+    <value>Ajouter Dérogation</value>
+  </data>
+  <data name="addedEchan" xml:space="preserve">
+    <value>La table d`échantillonnage a été ajouté</value>
+  </data>
+  <data name="AddGamme" xml:space="preserve">
+    <value>Ajouter une Gamme</value>
+  </data>
+  <data name="AddInstruction" xml:space="preserve">
+    <value>Ajouter Instruction</value>
+  </data>
+  <data name="AddLast" xml:space="preserve">
+    <value>Ajouter à la fin</value>
+  </data>
+  <data name="addNewTest" xml:space="preserve">
+    <value>Ajouter un nouveau test</value>
+  </data>
+  <data name="addTable" xml:space="preserve">
+    <value>Ajouter une Table</value>
+  </data>
+  <data name="addTest" xml:space="preserve">
+    <value>Ajouter un Test</value>
+  </data>
+  <data name="addTestAlert" xml:space="preserve">
+    <value>Entrer un test</value>
+  </data>
+  <data name="addTestLabel" xml:space="preserve">
+    <value>Ajouter un test dans la rubrique ci-dessous</value>
+  </data>
+  <data name="addZoneName" xml:space="preserve">
+    <value>Ajouter un nom de zone</value>
+  </data>
+  <data name="admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="affectedAdmin" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir affecter l`admin</value>
+  </data>
+  <data name="affectedMedia" xml:space="preserve">
+    <value>Le média est affecté!</value>
+  </data>
+  <data name="Ajouter" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="AjouterEssaie" xml:space="preserve">
+    <value>Ajouter Essai</value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>Les API de fichiers ne sont pas entièrement prises en charge dans ce navigateur.</value>
+  </data>
+  <data name="Alerte" xml:space="preserve">
+    <value>Alerte</value>
+  </data>
+  <data name="AlertMax" xml:space="preserve">
+    <value>Alerte max</value>
+  </data>
+  <data name="alertMaxAlert" xml:space="preserve">
+    <value>Alert Max doit être un nombre</value>
+  </data>
+  <data name="AlertMin" xml:space="preserve">
+    <value>Alerte min</value>
+  </data>
+  <data name="alertMinAlert" xml:space="preserve">
+    <value>Alerte min doit être un nombre</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>Tout</value>
+  </data>
+  <data name="allTestAreCreated" xml:space="preserve">
+    <value>Tous les tests sont créés</value>
+  </data>
+  <data name="andUnderDerogationPlural" xml:space="preserve">
+    <value>et sous les dérogations numéro:</value>
+  </data>
+  <data name="andUnderDerogationSingle" xml:space="preserve">
+    <value>et sous la dérogation numéro:</value>
+  </data>
+  <data name="annuleOperationAlert" xml:space="preserve">
+    <value>Vous ne pouvez pas annuler cette opération!</value>
+  </data>
+  <data name="Annuler" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="annulerDuplication" xml:space="preserve">
+    <value>Annuler la duplication</value>
+  </data>
+  <data name="annulerForm" xml:space="preserve">
+    <value>Vider les champs</value>
+  </data>
+  <data name="aPlaceholder" xml:space="preserve">
+    <value>à</value>
+  </data>
+  <data name="applyLawEchantionnageAlert" xml:space="preserve">
+    <value>Voulez-vous appliquer cette loi d'échantillonnage à tous les contrôles avec une loi?</value>
+  </data>
+  <data name="Aspect" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="attachedToReference" xml:space="preserve">
+    <value>et l'attacher au composant</value>
+  </data>
+  <data name="Aucune" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="auditProduitTitle" xml:space="preserve">
+    <value>AP: Directive</value>
+  </data>
+  <data name="autreAvecValeur" xml:space="preserve">
+    <value>Autre avec valeur</value>
+  </data>
+  <data name="autreSansValeur" xml:space="preserve">
+    <value>Autre sans valeur</value>
+  </data>
+  <data name="AvecValeur" xml:space="preserve">
+    <value>Avec Valeur</value>
+  </data>
+  <data name="AvecValeurNominal" xml:space="preserve">
+    <value>Avec valeur nominale</value>
+  </data>
+  <data name="backToGamme" xml:space="preserve">
+    <value>Retour à la gamme</value>
+  </data>
+  <data name="BatchBatchDate" xml:space="preserve">
+    <value>Lot - Date Lot</value>
+  </data>
+  <data name="batchDate" xml:space="preserve">
+    <value>Date lot</value>
+  </data>
+  <data name="batchDateOf" xml:space="preserve">
+    <value>Date Lot de</value>
+  </data>
+  <data name="BlockedReferences" xml:space="preserve">
+    <value>Composant bloquée</value>
+  </data>
+  <data name="bloque" xml:space="preserve">
+    <value>bloqué</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Parcourir</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="changeIndiceAelrt" xml:space="preserve">
+    <value>Voulez-vous changer d`indice?</value>
+  </data>
+  <data name="changeSelectedText" xml:space="preserve">
+    <value>Modifier le text sélectionné</value>
+  </data>
+  <data name="ChnagerStatusInstruction" xml:space="preserve">
+    <value>Cliquez sur une instruction pour changer son statut</value>
+  </data>
+  <data name="ChoisirPLigneProduction" xml:space="preserve">
+    <value>Choisir un Ligne de production</value>
+  </data>
+  <data name="chooseDate" xml:space="preserve">
+    <value>Choisir une date</value>
+  </data>
+  <data name="chooseFinalProduct" xml:space="preserve">
+    <value>Choisissez le produit final</value>
+  </data>
+  <data name="ChooseInstruction" xml:space="preserve">
+    <value>Veuillez choisir une instruction</value>
+  </data>
+  <data name="chooseReference" xml:space="preserve">
+    <value>Choisir un composant</value>
+  </data>
+  <data name="Circle" xml:space="preserve">
+    <value>Cercle</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Tout effacer</value>
+  </data>
+  <data name="clickOnLine" xml:space="preserve">
+    <value>Cliquez sur une des lignes suivantes</value>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="CliquerInstruction" xml:space="preserve">
+    <value>Cliquez sur une instruction pour changer son status</value>
+  </data>
+  <data name="CliquerInstuction" xml:space="preserve">
+    <value>Cliquez sur une instruction pour lui attribuer une dérogation</value>
+  </data>
+  <data name="CliquerPourModifierDerogation" xml:space="preserve">
+    <value>Cliquez sur une dérogation pour la modifier</value>
+  </data>
+  <data name="CliquezPVs" xml:space="preserve">
+    <value>Cliquez sur un des PVs</value>
+  </data>
+  <data name="cocheControlAlert" xml:space="preserve">
+    <value>Cocher au-moins un contrôle</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Codes" xml:space="preserve">
+    <value>Codes</value>
+  </data>
+  <data name="Component" xml:space="preserve">
+    <value>Composant</value>
+  </data>
+  <data name="componentExist" xml:space="preserve">
+    <value>Ce composant existe, veuillez vérifier le nom du composant ou le choisir dans la liste</value>
+  </data>
+  <data name="Components" xml:space="preserve">
+    <value>Composants</value>
+  </data>
+  <data name="ComposantEncours" xml:space="preserve">
+    <value>Composant en cours</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirmer</value>
+  </data>
+  <data name="confirmAlert" xml:space="preserve">
+    <value>Veuillez confirmer</value>
+  </data>
+  <data name="ConfirmerAction" xml:space="preserve">
+    <value>Veuillez confirmer cette action</value>
+  </data>
+  <data name="ConfirmIndexChange" xml:space="preserve">
+    <value>Cette modification fera l'objet d'un changement d'indice</value>
+  </data>
+  <data name="confirmPassword" xml:space="preserve">
+    <value>Confirmer le mot de passe</value>
+  </data>
+  <data name="confirmPasswordAlert" xml:space="preserve">
+    <value>Veuillez confirmer le nouveau mot de passe</value>
+  </data>
+  <data name="ConnectedUsers" xml:space="preserve">
+    <value>Utilisateur connecté</value>
+  </data>
+  <data name="Consult" xml:space="preserve">
+    <value>Consulter</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continuer</value>
+  </data>
+  <data name="control" xml:space="preserve">
+    <value>Contrôle</value>
+  </data>
+  <data name="ControlAction" xml:space="preserve">
+    <value>Contrôle de Action</value>
+  </data>
+  <data name="ControlAvecValeur" xml:space="preserve">
+    <value>Autre contrôle avec valeur</value>
+  </data>
+  <data name="controlCode" xml:space="preserve">
+    <value>Code Contrôle</value>
+  </data>
+  <data name="controlDescription" xml:space="preserve">
+    <value>Désignation de Contrôle</value>
+  </data>
+  <data name="ControleAspect" xml:space="preserve">
+    <value>Contrôle d'aspect</value>
+  </data>
+  <data name="controleBloque" xml:space="preserve">
+    <value>Contrôle bloqué</value>
+  </data>
+  <data name="ControleDimensionnel" xml:space="preserve">
+    <value>Contrôle Dimensionnel</value>
+  </data>
+  <data name="ControlePreliminaire" xml:space="preserve">
+    <value>Contrôle de Packaging</value>
+  </data>
+  <data name="controleProduitFinie" xml:space="preserve">
+    <value>Le contrôle du Produit Fini </value>
+  </data>
+  <data name="controleReference" xml:space="preserve">
+    <value>Le contrôle du Composant</value>
+  </data>
+  <data name="ControleSpecifique" xml:space="preserve">
+    <value>Contrôle Spécifique</value>
+  </data>
+  <data name="controlOf" xml:space="preserve">
+    <value>Contrôle de</value>
+  </data>
+  <data name="ControlSansValeur" xml:space="preserve">
+    <value>Autre contrôle sans valeur</value>
+  </data>
+  <data name="Cote" xml:space="preserve">
+    <value>Côte</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Créer</value>
+  </data>
+  <data name="created" xml:space="preserve">
+    <value>a été créée!</value>
+  </data>
+  <data name="createFlagAlert" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir ajouter ce test sans créer un flag?</value>
+  </data>
+  <data name="createGamme" xml:space="preserve">
+    <value>Créer Gamme</value>
+  </data>
+  <data name="createZoneAlert" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir ajouter ce test sans créer une zone?</value>
+  </data>
+  <data name="creationDate" xml:space="preserve">
+    <value>Date de création</value>
+  </data>
+  <data name="creationGammeAlert" xml:space="preserve">
+    <value>La gamme a été créée</value>
+  </data>
+  <data name="CreatorGamme" xml:space="preserve">
+    <value>Créateur Gamme</value>
+  </data>
+  <data name="crTitle" xml:space="preserve">
+    <value>CR: Directive</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DateDernierModifier" xml:space="preserve">
+    <value>Date Dernière modification</value>
+  </data>
+  <data name="dateFormatAlert" xml:space="preserve">
+    <value>Le format de la date n'est pas valide. Il doit sous forme (jj/mm/yyyy)</value>
+  </data>
+  <data name="DateLot" xml:space="preserve">
+    <value>Date Lot</value>
+  </data>
+  <data name="DateReception" xml:space="preserve">
+    <value>Date réception</value>
+  </data>
+  <data name="de" xml:space="preserve">
+    <value>du</value>
+  </data>
+  <data name="debloqueAndAddInstructionSpcAlert" xml:space="preserve">
+    <value>Vous êtes sur le point de débloquer et de passer à l`instruction suivante. La valeur du test va être ajoutée à la table SPC</value>
+  </data>
+  <data name="debloqueAndRefaireTest" xml:space="preserve">
+    <value>Vous êtes sur le point de débloquer et de faire ce test. La valeur du test ne va pas être ajouter à la table SPC</value>
+  </data>
+  <data name="debloquedReference" xml:space="preserve">
+    <value>Le composant a été débloquée!</value>
+  </data>
+  <data name="debloqueInstructionAndAddSPC" xml:space="preserve">
+    <value>Vous êtes sur le point de débloquer et de passer à l`instruction suivante. La valeur du test va être ajouter à la table SPC</value>
+  </data>
+  <data name="debloqueReferenceAlert" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir débloquer le produit fini?</value>
+  </data>
+  <data name="debloqueSelection" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir débloquer débloquer la sélection?</value>
+  </data>
+  <data name="debloqueSpcAlert" xml:space="preserve">
+    <value>Vous êtes sur le point de débloquer et de refaire ce test. La valeur du test ne va pas être ajouter à la table SPC</value>
+  </data>
+  <data name="Decision" xml:space="preserve">
+    <value>Décision</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Défaut</value>
+  </data>
+  <data name="defect" xml:space="preserve">
+    <value>Défauts</value>
+  </data>
+  <data name="defectCode" xml:space="preserve">
+    <value>Code Défaut</value>
+  </data>
+  <data name="defectCodeInfo" xml:space="preserve">
+    <value>Information code défaut</value>
+  </data>
+  <data name="defectDescription" xml:space="preserve">
+    <value>Description du défaut</value>
+  </data>
+  <data name="Defects" xml:space="preserve">
+    <value>Défauts</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="deleteAdminAlert" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir effacer l`admin</value>
+  </data>
+  <data name="deleteAllGamme" xml:space="preserve">
+    <value>Effacer toute la gamme</value>
+  </data>
+  <data name="deleteAllInstructionAlert" xml:space="preserve">
+    <value>Toutes les instructions vont être effacées. Vous ne pouvez pas annuler cette opération!</value>
+  </data>
+  <data name="deleteClientAlert" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir effacer le client</value>
+  </data>
+  <data name="deleted" xml:space="preserve">
+    <value>a été effacée!</value>
+  </data>
+  <data name="deletedAdministrator" xml:space="preserve">
+    <value>L`administrateur a été effacé!</value>
+  </data>
+  <data name="deletedDerogation" xml:space="preserve">
+    <value>La dérogation a été effacée!</value>
+  </data>
+  <data name="deletedDerogationAlert" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir effacer la dérogation</value>
+  </data>
+  <data name="deletedEchan" xml:space="preserve">
+    <value>La table d'échantillonnage a été supprimée avec succès</value>
+  </data>
+  <data name="deletedGamme" xml:space="preserve">
+    <value>La gamme a été effacé!</value>
+  </data>
+  <data name="deletedOperator" xml:space="preserve">
+    <value>Le contrôleur a été effacé!</value>
+  </data>
+  <data name="deleteGammeAlert" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir effacer cette instruction?</value>
+  </data>
+  <data name="deleteInstructionAlert" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir effacer cette instruction?</value>
+  </data>
+  <data name="deleteOperatorAlert" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir effacer le contrôleur</value>
+  </data>
+  <data name="deleteSamplingLawAlert" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer l'exemple de table ?</value>
+  </data>
+  <data name="Demandeur" xml:space="preserve">
+    <value>Demandeur</value>
+  </data>
+  <data name="dePlaceholder" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="derogation" xml:space="preserve">
+    <value>Dérogation</value>
+  </data>
+  <data name="derogationAlert" xml:space="preserve">
+    <value>Les instructions ont été débloquées! Voulez-vous créer une dérogation?</value>
+  </data>
+  <data name="derogationNumber" xml:space="preserve">
+    <value>Numéro de dérogation</value>
+  </data>
+  <data name="derogationObject" xml:space="preserve">
+    <value>Objet de dérogation</value>
+  </data>
+  <data name="desafectedAdmin" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir désaffecter l`admin</value>
+  </data>
+  <data name="Designation" xml:space="preserve">
+    <value>Désignation</value>
+  </data>
+  <data name="DesignerFlag" xml:space="preserve">
+    <value>Designer un flag</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="Dimensionnel" xml:space="preserve">
+    <value>Dimensionnel</value>
+  </data>
+  <data name="Dimentional" xml:space="preserve">
+    <value>Dimensionnel</value>
+  </data>
+  <data name="Directive" xml:space="preserve">
+    <value>Directive</value>
+  </data>
+  <data name="duClient" xml:space="preserve">
+    <value>du client</value>
+  </data>
+  <data name="dulpiqueGammeAlert" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir dupliquer la gamme</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Dupliquer</value>
+  </data>
+  <data name="dupliquerGamme" xml:space="preserve">
+    <value>Dupliquer cette gamme</value>
+  </data>
+  <data name="duration" xml:space="preserve">
+    <value>Durée</value>
+  </data>
+  <data name="dureeAlert" xml:space="preserve">
+    <value>Durée doit être un nombre supérieur à 0</value>
+  </data>
+  <data name="Durée" xml:space="preserve">
+    <value>Durée</value>
+  </data>
+  <data name="Désignation" xml:space="preserve">
+    <value>Désignation</value>
+  </data>
+  <data name="Echan" xml:space="preserve">
+    <value>Echan.</value>
+  </data>
+  <data name="Echantillon" xml:space="preserve">
+    <value>Échantillon</value>
+  </data>
+  <data name="Echantillonnage" xml:space="preserve">
+    <value>Échantillonnage</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="editDerogation" xml:space="preserve">
+    <value>Modifiez cette dérogation</value>
+  </data>
+  <data name="Editeur" xml:space="preserve">
+    <value>Éditeur</value>
+  </data>
+  <data name="EditTest" xml:space="preserve">
+    <value>Modifier Test</value>
+  </data>
+  <data name="efface" xml:space="preserve">
+    <value>effacée</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Empreinte" xml:space="preserve">
+    <value>Empreinte</value>
+  </data>
+  <data name="Empreintes" xml:space="preserve">
+    <value>Empreintes</value>
+  </data>
+  <data name="empreintSepareted" xml:space="preserve">
+    <value>empreintes séparées par des</value>
+  </data>
+  <data name="empreitnNumberAlert" xml:space="preserve">
+    <value>Nombre d`empreintes doit être un nombre</value>
+  </data>
+  <data name="endDate" xml:space="preserve">
+    <value>Date  Fin</value>
+  </data>
+  <data name="endLater" xml:space="preserve">
+    <value>Finir plus tard</value>
+  </data>
+  <data name="enter" xml:space="preserve">
+    <value>Entrez</value>
+  </data>
+  <data name="enterNameMode" xml:space="preserve">
+    <value>Entrez un nom pour mode</value>
+  </data>
+  <data name="enterReferenceName" xml:space="preserve">
+    <value>Entrez un nom de composant ou une partie du nom</value>
+  </data>
+  <data name="EntrerNomLoi" xml:space="preserve">
+    <value>Entrer un nom pour cette loi</value>
+  </data>
+  <data name="erreurProduitAlert" xml:space="preserve">
+    <value>Une erreur s`est produite</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="errurSurvenue" xml:space="preserve">
+    <value>Une erreur est survenue</value>
+  </data>
+  <data name="estManquant" xml:space="preserve">
+    <value>est manquant</value>
+  </data>
+  <data name="Fabriquant" xml:space="preserve">
+    <value>Fabriquant</value>
+  </data>
+  <data name="famille" xml:space="preserve">
+    <value>Famille</value>
+  </data>
+  <data name="Familly" xml:space="preserve">
+    <value>Famille</value>
+  </data>
+  <data name="fermer" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="FinalProduct" xml:space="preserve">
+    <value>Produits finis</value>
+  </data>
+  <data name="FinalProductEnCours" xml:space="preserve">
+    <value>produit fini en Cours</value>
+  </data>
+  <data name="finalproductList" xml:space="preserve">
+    <value>Liste des produits finis</value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>Terminer</value>
+  </data>
+  <data name="FinishedUpdate" xml:space="preserve">
+    <value>Avez-vous terminé vos mises à jour</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Drapot</value>
+  </data>
+  <data name="FlagTitle" xml:space="preserve">
+    <value>Tri</value>
+  </data>
+  <data name="Fournisseur" xml:space="preserve">
+    <value>Fournisseur</value>
+  </data>
+  <data name="freqAlert" xml:space="preserve">
+    <value>Fréquence doit être un nombre supérieur à 0</value>
+  </data>
+  <data name="freqPePiece" xml:space="preserve">
+    <value>Fréquence (par pièce)</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>Fréquence</value>
+  </data>
+  <data name="fromMedia" xml:space="preserve">
+    <value>A partir de médias</value>
+  </data>
+  <data name="Fréq" xml:space="preserve">
+    <value>Fréquence</value>
+  </data>
+  <data name="Fréquence" xml:space="preserve">
+    <value>Fréquence</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galerie</value>
+  </data>
+  <data name="Gamme" xml:space="preserve">
+    <value>Gamme</value>
+  </data>
+  <data name="GenericControls" xml:space="preserve">
+    <value>Contrôles génériques</value>
+  </data>
+  <data name="GenericGamme" xml:space="preserve">
+    <value>2D</value>
+  </data>
+  <data name="Historique" xml:space="preserve">
+    <value>Historique</value>
+  </data>
+  <data name="HistoryControl" xml:space="preserve">
+    <value>Historique des activités de contrôle</value>
+  </data>
+  <data name="HistoryInstructionControl" xml:space="preserve">
+    <value>Historique des instructions de contrôle</value>
+  </data>
+  <data name="IgnoreChanges" xml:space="preserve">
+    <value>Êtes-vous sûr d'ignorer les changements</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="imageNonLu" xml:space="preserve">
+    <value>L`image n`a pas été lue! Code:</value>
+  </data>
+  <data name="Inactif" xml:space="preserve">
+    <value>Inactif</value>
+  </data>
+  <data name="indexUsed" xml:space="preserve">
+    <value>Cet indice est déjà utilisé</value>
+  </data>
+  <data name="indice" xml:space="preserve">
+    <value>Indice</value>
+  </data>
+  <data name="IndiceGamme" xml:space="preserve">
+    <value>Indice Gamme</value>
+  </data>
+  <data name="indiceGammeAndCreate" xml:space="preserve">
+    <value>Indiquez l'indice de la gamme et cliquez sur - Créer Gamme -</value>
+  </data>
+  <data name="InsertInstructionError" xml:space="preserve">
+    <value>Insérer une erreur d'instruction</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="InstructionActive" xml:space="preserve">
+    <value>Vous êtes sur le point d'activer l'instuction. Voulez-vous continuer?</value>
+  </data>
+  <data name="InstructionControle" xml:space="preserve">
+    <value>Cette instruction va désormais être contrôlée. Voulez-vous continuer?</value>
+  </data>
+  <data name="instructionDeleted" xml:space="preserve">
+    <value>L`instruction a été effacée!</value>
+  </data>
+  <data name="InstructionDesactive" xml:space="preserve">
+    <value>Vous êtes sur le point de désactiver l'instuction. Voulez-vous continuer?</value>
+  </data>
+  <data name="InstructionError" xml:space="preserve">
+    <value>Erreur d'instruction</value>
+  </data>
+  <data name="InstructionHaveDerogation" xml:space="preserve">
+    <value>Cette instruction a déjà une dérogation active, voulez-vous la remplacer?</value>
+  </data>
+  <data name="InstructionHaveSort" xml:space="preserve">
+    <value>Cette instruction comporte le tri</value>
+  </data>
+  <data name="InstructionPasControle" xml:space="preserve">
+    <value>Cette instruction ne va plus être contrôlée. Voulez-vous continuer?</value>
+  </data>
+  <data name="instructionsAreDebloqued" xml:space="preserve">
+    <value>Les instructions ont été débloquées! Voulez-vous créer une dérogation?</value>
+  </data>
+  <data name="lastControled" xml:space="preserve">
+    <value>Dernier contrôle</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Law" xml:space="preserve">
+    <value>Loi</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Ligne</value>
+  </data>
+  <data name="ListeEssaieComposant" xml:space="preserve">
+    <value>Liste Essaie Composant</value>
+  </data>
+  <data name="ListeEssaieFinalProduct" xml:space="preserve">
+    <value>Liste Essaie produit fini</value>
+  </data>
+  <data name="ListeUserGamme" xml:space="preserve">
+    <value>Opérateurs formés</value>
+  </data>
+  <data name="ListInstructionActif" xml:space="preserve">
+    <value>List instruction Inactif</value>
+  </data>
+  <data name="ListLois" xml:space="preserve">
+    <value>Liste des Lois</value>
+  </data>
+  <data name="Loi" xml:space="preserve">
+    <value>Loi</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="Lots" xml:space="preserve">
+    <value>Lots</value>
+  </data>
+  <data name="Maker" xml:space="preserve">
+    <value>Fournisseur</value>
+  </data>
+  <data name="MaxAlert" xml:space="preserve">
+    <value>Alerte max</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Valeur max</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="Mesure" xml:space="preserve">
+    <value>Mesure</value>
+  </data>
+  <data name="MinAlert" xml:space="preserve">
+    <value>Alerte min</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Valeur min</value>
+  </data>
+  <data name="MissionList" xml:space="preserve">
+    <value>Liste des missions</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="ModeName" xml:space="preserve">
+    <value>Nom Mode</value>
+  </data>
+  <data name="modificationObject" xml:space="preserve">
+    <value>Objet de modification</value>
+  </data>
+  <data name="ModifieEssaie" xml:space="preserve">
+    <value>Modifier Essai</value>
+  </data>
+  <data name="moreRange" xml:space="preserve">
+    <value>cette référence a plus d'un type de gamme, veuillez en choisir une pour continuer</value>
+  </data>
+  <data name="Motif" xml:space="preserve">
+    <value>Motif</value>
+  </data>
+  <data name="Moyen" xml:space="preserve">
+    <value>Moyen</value>
+  </data>
+  <data name="mustAddZones" xml:space="preserve">
+    <value>Il n'y a pas de zone ajoutée</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="NameEchantillonage" xml:space="preserve">
+    <value>Entrer un nom pour le table d`échantillonnage</value>
+  </data>
+  <data name="nameLawSampling" xml:space="preserve">
+    <value>Entrez un nom pour cette loi d`échantillonnage</value>
+  </data>
+  <data name="NbEemballage" xml:space="preserve">
+    <value>Nbre d'Eemballage</value>
+  </data>
+  <data name="nbpe" xml:space="preserve">
+    <value>Nombre Pièces/Empreint</value>
+  </data>
+  <data name="nbPieceAlert" xml:space="preserve">
+    <value>Nombre de pièces doit être un nombre</value>
+  </data>
+  <data name="nbPieces" xml:space="preserve">
+    <value>Nombre pièces</value>
+  </data>
+  <data name="NbPiecesEmpreint" xml:space="preserve">
+    <value>Nombre Pièces/Empreint</value>
+  </data>
+  <data name="NbrePcControle" xml:space="preserve">
+    <value>Nb pcs contrôlées</value>
+  </data>
+  <data name="NbrePcNCControle" xml:space="preserve">
+    <value>Nombres pcs NC contrôlées</value>
+  </data>
+  <data name="NC" xml:space="preserve">
+    <value>NC</value>
+  </data>
+  <data name="NcAspect" xml:space="preserve">
+    <value>Non Conformité Aspect</value>
+  </data>
+  <data name="NCAutre" xml:space="preserve">
+    <value>NC Autre</value>
+  </data>
+  <data name="NcAvecValeur" xml:space="preserve">
+    <value>Non Conformité Avec Valeur</value>
+  </data>
+  <data name="NcDimensionel" xml:space="preserve">
+    <value>Non Conformité Dimensionel</value>
+  </data>
+  <data name="ncInfEchan" xml:space="preserve">
+    <value>NC doit être inférieur à l`échantillon</value>
+  </data>
+  <data name="NControle" xml:space="preserve">
+    <value>N° Contrôle</value>
+  </data>
+  <data name="NcPreliminaire" xml:space="preserve">
+    <value>Non Conformité de Packaging</value>
+  </data>
+  <data name="ncWithoutValue" xml:space="preserve">
+    <value>NC autre sans valeur</value>
+  </data>
+  <data name="ncWithValue" xml:space="preserve">
+    <value>NC autre avec valeur</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="newPassword" xml:space="preserve">
+    <value>Nouveau passe\n</value>
+  </data>
+  <data name="NExisteDerogatioon" xml:space="preserve">
+    <value>Cette derogation n'existe pas</value>
+  </data>
+  <data name="NexistePV" xml:space="preserve">
+    <value>Ce PV n'existe pas</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="noActivity" xml:space="preserve">
+    <value>Pas d`activité</value>
+  </data>
+  <data name="noDerogation" xml:space="preserve">
+    <value>(Pas de dérogation)</value>
+  </data>
+  <data name="NoEdit" xml:space="preserve">
+    <value>Cette référence n'a pas de gamme</value>
+  </data>
+  <data name="NoEndDateSelected" xml:space="preserve">
+    <value>Aucune date de fin sélectionnée</value>
+  </data>
+  <data name="NoFileSelected" xml:space="preserve">
+    <value>Aucun fichier sélectionné</value>
+  </data>
+  <data name="NoFinalProductSelected" xml:space="preserve">
+    <value>Aucune produit fini sélectionnée</value>
+  </data>
+  <data name="noGamme" xml:space="preserve">
+    <value>Pas de gamme</value>
+  </data>
+  <data name="NominalValue" xml:space="preserve">
+    <value>Valeur nominal</value>
+  </data>
+  <data name="nomLoiEchan" xml:space="preserve">
+    <value>Entrez un nom pour cette loi d`échantillonnage</value>
+  </data>
+  <data name="noRange" xml:space="preserve">
+    <value>Il n'y a pas de gamme</value>
+  </data>
+  <data name="noRangeUpdateReference" xml:space="preserve">
+    <value>Cette référence est incomplète, appuyez sur Continuer pour la mettre à jour</value>
+  </data>
+  <data name="NoReferenceSelected" xml:space="preserve">
+    <value>Aucune référence sélectionnée</value>
+  </data>
+  <data name="NoStartDateSelected" xml:space="preserve">
+    <value>Aucune date de début sélectionnée</value>
+  </data>
+  <data name="notActive" xml:space="preserve">
+    <value>no Active</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Numéro</value>
+  </data>
+  <data name="NumberDefect" xml:space="preserve">
+    <value>Nombre de défauts</value>
+  </data>
+  <data name="NumberDerogationExist" xml:space="preserve">
+    <value>Ce Numéro de dérogation est déjà utlisé, veuillez en choisir un autre.</value>
+  </data>
+  <data name="numEmpremte" xml:space="preserve">
+    <value>Num Empreinte</value>
+  </data>
+  <data name="numeroLot" xml:space="preserve">
+    <value>Numéro de lot</value>
+  </data>
+  <data name="ObjetEvolution" xml:space="preserve">
+    <value>Objet de l'évolution</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OldIndex" xml:space="preserve">
+    <value>Ancien indice</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Ou</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="OtherWithoutValue" xml:space="preserve">
+    <value>Autre sans valeur</value>
+  </data>
+  <data name="OtherWithValue" xml:space="preserve">
+    <value>Autre avec valeur</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Inconnue</value>
+  </data>
+  <data name="PasActivite" xml:space="preserve">
+    <value>Pas d'activité</value>
+  </data>
+  <data name="PasComfirmte" xml:space="preserve">
+    <value>Pas de non conformités</value>
+  </data>
+  <data name="PasControle" xml:space="preserve">
+    <value>Pas de contrôle</value>
+  </data>
+  <data name="pasGame" xml:space="preserve">
+    <value>Pas de gamme</value>
+  </data>
+  <data name="pasHistory" xml:space="preserve">
+    <value>Pas d'historique</value>
+  </data>
+  <data name="PasseMadeAQP" xml:space="preserve">
+    <value>Cette référence est passée en mode AQP</value>
+  </data>
+  <data name="PasseMadeQ" xml:space="preserve">
+    <value>Cette référence est passée en mode Q</value>
+  </data>
+  <data name="pasSup" xml:space="preserve">
+    <value>n`est pas supérieur à</value>
+  </data>
+  <data name="pasValide" xml:space="preserve">
+    <value>n`est pas valide</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Téléphone</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="PhraseP2" xml:space="preserve">
+    <value>est fait conformément à la fiche d'instruction sous l'indice</value>
+  </data>
+  <data name="PhraseRapportconform" xml:space="preserve">
+    <value>est fait conformément à la fiche d'instruction sous l'indice et sous la dérogation selon son historique ci-après</value>
+  </data>
+  <data name="pieces" xml:space="preserve">
+    <value>Piéces</value>
+  </data>
+  <data name="Pièce" xml:space="preserve">
+    <value>Pièce</value>
+  </data>
+  <data name="Pièces" xml:space="preserve">
+    <value>Pièces</value>
+  </data>
+  <data name="Plan" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="Polygon" xml:space="preserve">
+    <value>Polygone</value>
+  </data>
+  <data name="Preliminary" xml:space="preserve">
+    <value>Packaging</value>
+  </data>
+  <data name="Packaging" xml:space="preserve">
+    <value>Packaging</value>
+  </data>
+  <data name="pressOk" xml:space="preserve">
+    <value>Voulez vous continuer pour la création de la gamme</value>
+  </data>
+  <data name="ProblemeQualiOne" xml:space="preserve">
+    <value>Problème dans QualiOne</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Produits</value>
+  </data>
+  <data name="ProjectAppartientAutreModule" xml:space="preserve">
+    <value>Ce projet a des modules assignés, il ne peut pas être supprimé</value>
+  </data>
+  <data name="pv" xml:space="preserve">
+    <value>PV</value>
+  </data>
+  <data name="pvShow" xml:space="preserve">
+    <value>Afficher PV</value>
+  </data>
+  <data name="Qte" xml:space="preserve">
+    <value>Quantité</value>
+  </data>
+  <data name="QteNOK" xml:space="preserve">
+    <value>Nombre de pièces NOK</value>
+  </data>
+  <data name="QtReception" xml:space="preserve">
+    <value>Quantité Récéption</value>
+  </data>
+  <data name="quantityAlert" xml:space="preserve">
+    <value>Quantité doit être un nombre</value>
+  </data>
+  <data name="Raison" xml:space="preserve">
+    <value>Raison</value>
+  </data>
+  <data name="Raisonmodification" xml:space="preserve">
+    <value>Raison modification</value>
+  </data>
+  <data name="RangeInValidation" xml:space="preserve">
+    <value>Cette gamme est déjà modifiée par une autre validation</value>
+  </data>
+  <data name="RangeSentValidation" xml:space="preserve">
+    <value>La gamme a été envoyée pour validation</value>
+  </data>
+  <data name="rangInstruction" xml:space="preserve">
+    <value>Le rang de l`instruction</value>
+  </data>
+  <data name="recapGamme" xml:space="preserve">
+    <value>Récapitulatif de la gamme</value>
+  </data>
+  <data name="ReceptionControlDashboard" xml:space="preserve">
+    <value>Tableau de bord de contrôle de réception</value>
+  </data>
+  <data name="ReceptionGamme" xml:space="preserve">
+    <value>3D</value>
+  </data>
+  <data name="Rectangle" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="refaireTestAlert" xml:space="preserve">
+    <value>Voulez-vous refaire ce test (Pas d`ajout à la table SPC)?</value>
+  </data>
+  <data name="refairTestAlert" xml:space="preserve">
+    <value>Voulez-vous faire ce test (Pas d'ajout à la table SPC)</value>
+  </data>
+  <data name="refairTestSpcAlert" xml:space="preserve">
+    <value>Voulez-vous refaire ce test (Pas d`ajout à la table SPC)?</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Composant</value>
+  </data>
+  <data name="reference2DViewer" xml:space="preserve">
+    <value>Cette référence a juste un objet 2D</value>
+  </data>
+  <data name="reference3DViewer" xml:space="preserve">
+    <value>Cette référence a juste un objet 3D</value>
+  </data>
+  <data name="Referencecontrol" xml:space="preserve">
+    <value>Le contrôle de la référence</value>
+  </data>
+  <data name="ReferenceDetails" xml:space="preserve">
+    <value>Détails des composants</value>
+  </data>
+  <data name="referenceList" xml:space="preserve">
+    <value>Liste des composants</value>
+  </data>
+  <data name="ReferenceName" xml:space="preserve">
+    <value>Nom du composant</value>
+  </data>
+  <data name="ReferencePasGamme" xml:space="preserve">
+    <value>Cette référence n'a pas de Gamme</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Composants</value>
+  </data>
+  <data name="ReferencesList" xml:space="preserve">
+    <value>Liste des composants</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Rafraîchir</value>
+  </data>
+  <data name="RefTest" xml:space="preserve">
+    <value>Composant 1/RefTest</value>
+  </data>
+  <data name="Remarque" xml:space="preserve">
+    <value>Remarque</value>
+  </data>
+  <data name="remplirChampsAndOk" xml:space="preserve">
+    <value>Remplissez les champs suivants et appuyez sur \"Ok\"</value>
+  </data>
+  <data name="RemplirDateLot" xml:space="preserve">
+    <value>Remplir Date Lot</value>
+  </data>
+  <data name="RemplirNumberDerogation" xml:space="preserve">
+    <value>Remplir Number Derogation</value>
+  </data>
+  <data name="RemplirReason" xml:space="preserve">
+    <value>Remplir Reason</value>
+  </data>
+  <data name="ResultControl" xml:space="preserve">
+    <value>Résultat de contrôle</value>
+  </data>
+  <data name="Rép" xml:space="preserve">
+    <value>Rép</value>
+  </data>
+  <data name="SampleSize" xml:space="preserve">
+    <value>Simple taille</value>
+  </data>
+  <data name="sampligValue" xml:space="preserve">
+    <value>la valeur de l`échantillon</value>
+  </data>
+  <data name="samplingLaw" xml:space="preserve">
+    <value>Loi d`échantillonnage</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="SaveAll" xml:space="preserve">
+    <value>Tout enregistrer</value>
+  </data>
+  <data name="saved2D" xml:space="preserve">
+    <value>La 2D a été enregistrée</value>
+  </data>
+  <data name="savedPassword" xml:space="preserve">
+    <value>Mot de passe enregistré</value>
+  </data>
+  <data name="saveGammeAlert" xml:space="preserve">
+    <value>La gamme a été sauvegardée</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Sélectionner</value>
+  </data>
+  <data name="SelectCompany" xml:space="preserve">
+    <value>Choisir societé</value>
+  </data>
+  <data name="selectDuplicatePF" xml:space="preserve">
+    <value>Cliquez sur un Produit fini à gauche pour lui attacher une copie de la gamme</value>
+  </data>
+  <data name="selectDuplicatePSF" xml:space="preserve">
+    <value>Cliquez sur un Produit semi fini à gauche pour lui attacher une copie de la gamme</value>
+  </data>
+  <data name="selectDuplicateReference" xml:space="preserve">
+    <value>Cliquez sur un composant à gauche pour lui attacher une copie de la gamme</value>
+  </data>
+  <data name="selectedParticipant" xml:space="preserve">
+    <value>Utilisateur selectioneé</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Sélectionnez un fichier</value>
+  </data>
+  <data name="SelectPaticipant" xml:space="preserve">
+    <value>Sélectionner un participant</value>
+  </data>
+  <data name="SelectPv" xml:space="preserve">
+    <value>Sélectionnez pv</value>
+  </data>
+  <data name="selectReference" xml:space="preserve">
+    <value>Sélectionnez une référence</value>
+  </data>
+  <data name="selectReferenceAlert" xml:space="preserve">
+    <value>Veuillez sélectionner une référence dans la liste</value>
+  </data>
+  <data name="SelectReport" xml:space="preserve">
+    <value>Sélectionnez le rapport</value>
+  </data>
+  <data name="SetImage" xml:space="preserve">
+    <value>Définir l'image</value>
+  </data>
+  <data name="shouldBeNumber" xml:space="preserve">
+    <value>doit être un entier</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Voir</value>
+  </data>
+  <data name="ShowHistory" xml:space="preserve">
+    <value>Voir historique</value>
+  </data>
+  <data name="showSPC" xml:space="preserve">
+    <value>Afficher SPC</value>
+  </data>
+  <data name="sortingTitle" xml:space="preserve">
+    <value>Tri: Directive</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="Statut" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="StatutActuel" xml:space="preserve">
+    <value>Statut actuel</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Succes" xml:space="preserve">
+    <value>Succès</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Succès</value>
+  </data>
+  <data name="Suivant" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="superAdmin" xml:space="preserve">
+    <value>Super Admin</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>Fournisseur</value>
+  </data>
+  <data name="SyntheseGeneral" xml:space="preserve">
+    <value>Synthèse générale de non conformité</value>
+  </data>
+  <data name="tailleEchantillonAlert" xml:space="preserve">
+    <value>Taille des échantillons n`est pas correcte</value>
+  </data>
+  <data name="TailleLot" xml:space="preserve">
+    <value>Taille du Lot</value>
+  </data>
+  <data name="tailleLotAlert" xml:space="preserve">
+    <value>La taille du lot</value>
+  </data>
+  <data name="tailleLotCroissant" xml:space="preserve">
+    <value>Taille du lot doit être croissante</value>
+  </data>
+  <data name="TaillePrelevements" xml:space="preserve">
+    <value>Taille des prélèvements</value>
+  </data>
+  <data name="theClient" xml:space="preserve">
+    <value>Le client</value>
+  </data>
+  <data name="theDate" xml:space="preserve">
+    <value>La date</value>
+  </data>
+  <data name="theDerogation" xml:space="preserve">
+    <value>La dérogation</value>
+  </data>
+  <data name="TitrePV" xml:space="preserve">
+    <value>PV de Contrôle qualité</value>
+  </data>
+  <data name="TitreRapportReceptionControle" xml:space="preserve">
+    <value>Rapport de Contrôle qualité</value>
+  </data>
+  <data name="tobecompleted" xml:space="preserve">
+    <value>To be completed ...</value>
+  </data>
+  <data name="toberemoved" xml:space="preserve">
+    <value>to be removed ...</value>
+  </data>
+  <data name="toChangePassword" xml:space="preserve">
+    <value>pour modifier le mot de passe</value>
+  </data>
+  <data name="TolMax" xml:space="preserve">
+    <value>Tolérance Max</value>
+  </data>
+  <data name="TolMin" xml:space="preserve">
+    <value>Tolérance Min</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Outils</value>
+  </data>
+  <data name="TotalePrelevement" xml:space="preserve">
+    <value>Taille des Prélévements</value>
+  </data>
+  <data name="Trouver" xml:space="preserve">
+    <value>Trouver</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="typeEndDate" xml:space="preserve">
+    <value>Il faut saisir la date de fin</value>
+  </data>
+  <data name="typeQuantity" xml:space="preserve">
+    <value>Il faut saisir la quantité</value>
+  </data>
+  <data name="typeValMax" xml:space="preserve">
+    <value>Il faut saisir la valeur max</value>
+  </data>
+  <data name="typeValMin" xml:space="preserve">
+    <value>Il faut saisir la valeur min</value>
+  </data>
+  <data name="Unblocked" xml:space="preserve">
+    <value>Unblocked</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unité</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="UpdateComponent" xml:space="preserve">
+    <value>Mettre à jour le composant</value>
+  </data>
+  <data name="updated" xml:space="preserve">
+    <value>a été mis à jour!</value>
+  </data>
+  <data name="updatedEchan" xml:space="preserve">
+    <value>La table d`échantillonnage a été mise à jour</value>
+  </data>
+  <data name="updateDerogation" xml:space="preserve">
+    <value>Mettre à jour Dérogation</value>
+  </data>
+  <data name="updatedReference" xml:space="preserve">
+    <value>Le composant a été mis à jour!</value>
+  </data>
+  <data name="updateGammeAlert" xml:space="preserve">
+    <value>La gamme a été mise à jour!</value>
+  </data>
+  <data name="updateOrdreInstruction" xml:space="preserve">
+    <value>Voulez-vous mettre à jour l`ordre des instructions (cette action est irréversible)?</value>
+  </data>
+  <data name="UpdateUsersTrain" xml:space="preserve">
+    <value>Mettre à jour les utilisateurs à former</value>
+  </data>
+  <data name="usedName" xml:space="preserve">
+    <value>Nom utilisé</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Utilisateur</value>
+  </data>
+  <data name="UserConnect" xml:space="preserve">
+    <value>Utilisateurs connectés</value>
+  </data>
+  <data name="UsersTrained" xml:space="preserve">
+    <value>Sélectionnez les utilisateurs à former</value>
+  </data>
+  <data name="Valeur" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="ValidationImpossible" xml:space="preserve">
+    <value>Validation Impossible</value>
+  </data>
+  <data name="ValMax" xml:space="preserve">
+    <value>Valeur max</value>
+  </data>
+  <data name="valMaxAlert" xml:space="preserve">
+    <value>Valeur Max doit être un nombre</value>
+  </data>
+  <data name="ValMin" xml:space="preserve">
+    <value>Valeur min</value>
+  </data>
+  <data name="valMinAlert" xml:space="preserve">
+    <value>Valeur Min doit être un nombre</value>
+  </data>
+  <data name="ValNom" xml:space="preserve">
+    <value>Valeur nominale</value>
+  </data>
+  <data name="valNomAlert" xml:space="preserve">
+    <value>Valeur Nominale doit être un nombre</value>
+  </data>
+  <data name="verifiyControlAndDefectCodes" xml:space="preserve">
+    <value>Veuillez sélectionner un code défaut et un code contrôle</value>
+  </data>
+  <data name="ViewDerogations" xml:space="preserve">
+    <value>voir les dérogations</value>
+  </data>
+  <data name="Visuel" xml:space="preserve">
+    <value>Visuel</value>
+  </data>
+  <data name="Voir" xml:space="preserve">
+    <value>Voir</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Avertissement</value>
+  </data>
+  <data name="way" xml:space="preserve">
+    <value>Moyen</value>
+  </data>
+  <data name="whenSavePhoto" xml:space="preserve">
+    <value>lors de la sauvegarde de l`image</value>
+  </data>
+  <data name="whichOperatorConsult" xml:space="preserve">
+    <value>Quels contrôleurs voulez-vous consulter?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="yesAdd" xml:space="preserve">
+    <value>Oui, ajouter!</value>
+  </data>
+  <data name="yesAffected" xml:space="preserve">
+    <value>Oui, affecter!</value>
+  </data>
+  <data name="yesDebloque" xml:space="preserve">
+    <value>Oui, débloquer!</value>
+  </data>
+  <data name="yesDelete" xml:space="preserve">
+    <value>Oui, effacer!</value>
+  </data>
+  <data name="yesDesaffected" xml:space="preserve">
+    <value>Oui, désaffecter!</value>
+  </data>
+  <data name="yesDupliquer" xml:space="preserve">
+    <value>Oui, Dupliquer!</value>
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="zoneAlert" xml:space="preserve">
+    <value>vous devez ajouter une zone</value>
+  </data>
+  <data name="zoneDefectExist" xml:space="preserve">
+    <value>ce code de défaut existe</value>
+  </data>
+  <data name="Zones" xml:space="preserve">
+    <value>Zones</value>
+  </data>
+  <data name="zoneSelectAlert" xml:space="preserve">
+    <value>Vous devez sélectionner une zone</value>
+  </data>
+  <data name="zoneWithoutName" xml:space="preserve">
+    <value>Il y a une zone sans nom</value>
+  </data>
+  <data name="semiProduitTitle" xml:space="preserve">
+    <value>SFP: Directive</value>
+  </data>
+</root>

@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="ActionImmediate" xml:space="preserve">
+    <value>Action Immédiate</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>Activité</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="addDefect" xml:space="preserve">
+    <value>Ajouter un défaut</value>
+  </data>
+  <data name="AddTypeLabo" xml:space="preserve">
+    <value>Cliquez sur le bouton ajouter un type</value>
+  </data>
+  <data name="AjouterAction" xml:space="preserve">
+    <value>Ajouter une Action</value>
+  </data>
+  <data name="AjouterQuestion" xml:space="preserve">
+    <value>Ajouter une Question</value>
+  </data>
+  <data name="alertActionCours" xml:space="preserve">
+    <value>Les Action en Cours sont</value>
+  </data>
+  <data name="alertMissionNonCloture" xml:space="preserve">
+    <value>Il y a des actions et Missions non Cloturé</value>
+  </data>
+  <data name="alertMssionRecurent" xml:space="preserve">
+    <value>Les missions en Cours sont</value>
+  </data>
+  <data name="Altro" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="AnalyseEtactions" xml:space="preserve">
+    <value>Analyse et actions définitives</value>
+  </data>
+  <data name="Annuler" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="AQF" xml:space="preserve">
+    <value>AQF</value>
+  </data>
+  <data name="AssigneA" xml:space="preserve">
+    <value>Assigné à</value>
+  </data>
+  <data name="Autre" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="Cadence" xml:space="preserve">
+    <value>Cadence</value>
+  </data>
+  <data name="Caracterisation" xml:space="preserve">
+    <value>Caractérisation</value>
+  </data>
+  <data name="chooseProject" xml:space="preserve">
+    <value>Veuillez choisir le projet</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Cloture" xml:space="preserve">
+    <value>Clôturée</value>
+  </data>
+  <data name="Cloturer" xml:space="preserve">
+    <value>Clôturer</value>
+  </data>
+  <data name="CodeQRQC" xml:space="preserve">
+    <value>Code E-QRAP</value>
+  </data>
+  <data name="CodeQRQCExist" xml:space="preserve">
+    <value>Ce code d' e-QRAP est déjà utlisé, veuillez en choisir un autre.</value>
+  </data>
+  <data name="Combien" xml:space="preserve">
+    <value>Combien ?</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment ?</value>
+  </data>
+  <data name="comparerProduitEtNOK" xml:space="preserve">
+    <value>Nombre de produit est inferieur à la nombre de NOK</value>
+  </data>
+  <data name="Composant" xml:space="preserve">
+    <value>Composant</value>
+  </data>
+  <data name="ComposantSelect" xml:space="preserve">
+    <value>Sélectionner un Composant</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="ConfirmerCloseQRQC" xml:space="preserve">
+    <value>Confirmer la Cloture du  e-QRAP</value>
+  </data>
+  <data name="ConfirmerSuppression" xml:space="preserve">
+    <value>Voulez-vous Confirmer la suppression </value>
+  </data>
+  <data name="ContacterAdministateur" xml:space="preserve">
+    <value>Contacter Administateur</value>
+  </data>
+  <data name="Controle" xml:space="preserve">
+    <value>Contrôle</value>
+  </data>
+  <data name="CreateQRAPChildren" xml:space="preserve">
+    <value>Ajouter QRAP Fils</value>
+  </data>
+  <data name="Creepar" xml:space="preserve">
+    <value>Créer</value>
+  </data>
+  <data name="Critere" xml:space="preserve">
+    <value>Critère</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DateCreation" xml:space="preserve">
+    <value>Date de Création</value>
+  </data>
+  <data name="DateFin" xml:space="preserve">
+    <value>Date Fin</value>
+  </data>
+  <data name="DateSorting" xml:space="preserve">
+    <value>Date de tri</value>
+  </data>
+  <data name="DefaultPert" xml:space="preserve">
+    <value>de défauts ? Pertes ?</value>
+  </data>
+  <data name="defect" xml:space="preserve">
+    <value>Défaut</value>
+  </data>
+  <data name="DefectFamily" xml:space="preserve">
+    <value>Famille des Défauts</value>
+  </data>
+  <data name="Delai" xml:space="preserve">
+    <value>Délai</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="DeleteQRQC" xml:space="preserve">
+    <value>Vous voulez Supprimer   e-QRAP? </value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DesignationSuggestionActifGamme" xml:space="preserve">
+    <value>Non actif sur la gamme de IC</value>
+  </data>
+  <data name="DesignationSuggestionAMDECForFinalProduct" xml:space="preserve">
+    <value>Non existant dans l'AMDEC produit</value>
+  </data>
+  <data name="DesignationSuggestionAMDECForFinalProductIPR" xml:space="preserve">
+    <value>Existant dans l'AMDEC produit avec faible IPR</value>
+  </data>
+  <data name="DesignationSuggestionAMDECProcessForFinalProduct" xml:space="preserve">
+    <value>Non existant dans l'AMDEC Process du produit</value>
+  </data>
+  <data name="DesignationSuggestionAMDECProcessForFinalProductIPR" xml:space="preserve">
+    <value>Existant dans l'AMDEC Process avec faible IPR</value>
+  </data>
+  <data name="DesignationSuggestionAquite" xml:space="preserve">
+    <value>En acuitté non adéquate</value>
+  </data>
+  <data name="DesignationSuggestionNonExistDefautGameAF" xml:space="preserve">
+    <value>Non existant dans la gamme de AP</value>
+  </data>
+  <data name="DesignationSuggestionNonExistDefautGameIC" xml:space="preserve">
+    <value>non existant dans la gamme de IC</value>
+  </data>
+  <data name="DesignationSuggestionTriForComposant" xml:space="preserve">
+    <value>Composant en cours de tri sur autre(s) défaut(s)</value>
+  </data>
+  <data name="DesignationSuggestionTriForFinalProduct" xml:space="preserve">
+    <value>Produit fini en cours de tri sur autre(s) défaut(s)"</value>
+  </data>
+  <data name="Detected" xml:space="preserve">
+    <value>a-t-il eté détecté ?</value>
+  </data>
+  <data name="DetecteGenere" xml:space="preserve">
+    <value>détecté / généré ?</value>
+  </data>
+  <data name="DiscriptionSuggestionExistDefaut" xml:space="preserve">
+    <value>existant dans la gamme de IC/AP</value>
+  </data>
+  <data name="Emplacement" xml:space="preserve">
+    <value>Emplacement</value>
+  </data>
+  <data name="Enattent" xml:space="preserve">
+    <value>En attente</value>
+  </data>
+  <data name="Equipe" xml:space="preserve">
+    <value>Equipe</value>
+  </data>
+  <data name="Etat" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="Family" xml:space="preserve">
+    <value>Famille</value>
+  </data>
+  <data name="FivePourquois" xml:space="preserve">
+    <value>Cinq Pourquois</value>
+  </data>
+  <data name="ImagesNOK" xml:space="preserve">
+    <value>Choisir des Images NOK</value>
+  </data>
+  <data name="ImagesOK" xml:space="preserve">
+    <value>Choisir des Images OK</value>
+  </data>
+  <data name="InformationQRQC" xml:space="preserve">
+    <value>Information e-QRAP</value>
+  </data>
+  <data name="Isitprobleme" xml:space="preserve">
+    <value>Est-ce un Probléme?</value>
+  </data>
+  <data name="Ligne" xml:space="preserve">
+    <value>Ligne</value>
+  </data>
+  <data name="LigneProduction" xml:space="preserve">
+    <value>Ligne de Production</value>
+  </data>
+  <data name="Lignes" xml:space="preserve">
+    <value>Ligne</value>
+  </data>
+  <data name="ListQRQC" xml:space="preserve">
+    <value>Liste E-QRAP</value>
+  </data>
+  <data name="listQRQCReccurent" xml:space="preserve">
+    <value>Liste E-QRAP reccurent</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Lieux</value>
+  </data>
+  <data name="Logistics" xml:space="preserve">
+    <value>Logistique</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="ManqueControle" xml:space="preserve">
+    <value>Manque de Controle</value>
+  </data>
+  <data name="ManqueDeadline" xml:space="preserve">
+    <value>Date limite manquante</value>
+  </data>
+  <data name="ManqueDefaut" xml:space="preserve">
+    <value>Manque de Défaut</value>
+  </data>
+  <data name="Manqueflag" xml:space="preserve">
+    <value>Manque une Flag</value>
+  </data>
+  <data name="ManqueUser" xml:space="preserve">
+    <value>Utilisateur manquant</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="MemeImage" xml:space="preserve">
+    <value>Ajouter les méme Images dans Caracterisation</value>
+  </data>
+  <data name="Mission" xml:space="preserve">
+    <value>Mission</value>
+  </data>
+  <data name="NbreProduit" xml:space="preserve">
+    <value>Nombre Produit</value>
+  </data>
+  <data name="nc" xml:space="preserve">
+    <value>NC</value>
+  </data>
+  <data name="NewQRQC" xml:space="preserve">
+    <value>Nouveau e-QRAP</value>
+  </data>
+  <data name="NewQRQCSegment" xml:space="preserve">
+    <value>Nouveau QRQC Segment</value>
+  </data>
+  <data name="NExistQRQC" xml:space="preserve">
+    <value>Ce QRAP n'existe pas</value>
+  </data>
+  <data name="nok" xml:space="preserve">
+    <value>Nok</value>
+  </data>
+  <data name="Non" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="NonValide" xml:space="preserve">
+    <value>Non Valide</value>
+  </data>
+  <data name="NotExistUser" xml:space="preserve">
+    <value>Il n'existe pas d'utilisateur dans cette équipe</value>
+  </data>
+  <data name="NQRQC" xml:space="preserve">
+    <value>N° E-QRAP</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OrigineProbleme" xml:space="preserve">
+    <value>Origine du problème</value>
+  </data>
+  <data name="Ou" xml:space="preserve">
+    <value>Ou ?</value>
+  </data>
+  <data name="Oui" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="Ouvert" xml:space="preserve">
+    <value>Ouvert</value>
+  </data>
+  <data name="phrasedescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="phraseFamilledefaut" xml:space="preserve">
+    <value>Famille de defaut est</value>
+  </data>
+  <data name="PIECEBONNE" xml:space="preserve">
+    <value>PIECE BONNE</value>
+  </data>
+  <data name="PIECEMAUVAISE" xml:space="preserve">
+    <value>PIECE MAUVAISE</value>
+  </data>
+  <data name="PlageHeure" xml:space="preserve">
+    <value>Plage Heure</value>
+  </data>
+  <data name="PleaseAddMissionQRQC" xml:space="preserve">
+    <value>Svp Ajouter une Mission</value>
+  </data>
+  <data name="Pourquoi" xml:space="preserve">
+    <value>Pourquoi ?</value>
+  </data>
+  <data name="Preuve" xml:space="preserve">
+    <value>Evidence</value>
+  </data>
+  <data name="Prix" xml:space="preserve">
+    <value>Prix/Heure</value>
+  </data>
+  <data name="Probleme" xml:space="preserve">
+    <value>Problème</value>
+  </data>
+  <data name="ProblemeEstRecurrent" xml:space="preserve">
+    <value>Problème récurrent</value>
+  </data>
+  <data name="ProblemeisNotRecurrent" xml:space="preserve">
+    <value>Problème Non récurrent</value>
+  </data>
+  <data name="ProblemeNotRecurrent" xml:space="preserve">
+    <value>Problème Non récurrent</value>
+  </data>
+  <data name="ProblemeRecurrent" xml:space="preserve">
+    <value>Problème récurrent</value>
+  </data>
+  <data name="ProduitFini" xml:space="preserve">
+    <value>Produit Fini</value>
+  </data>
+  <data name="ProduitSemiFini" xml:space="preserve">
+    <value>Produit Semi Fini</value>
+  </data>
+  <data name="progress" xml:space="preserve">
+    <value>Avancement</value>
+  </data>
+  <data name="Projects" xml:space="preserve">
+    <value>Projets</value>
+  </data>
+  <data name="PropositionSuggestionActiveGamme" xml:space="preserve">
+    <value>Activer le contrôle de ce défaut en acuitté élevée</value>
+  </data>
+  <data name="PropositionSuggestionAgmentAquite" xml:space="preserve">
+    <value>Augmenter l'acuité du contrôle de ce défaut</value>
+  </data>
+  <data name="PropositionSuggestionAjouterInstruction" xml:space="preserve">
+    <value>Ajouter le code défaut dans une nouvelle instruction</value>
+  </data>
+  <data name="PropositionSuggestionAMDEC" xml:space="preserve">
+    <value>Ajouter le code défaut dans l'AMDEC</value>
+  </data>
+  <data name="PropositionSuggestionAquite" xml:space="preserve">
+    <value>Baisser l'acuitté de contrôle de ce défaut</value>
+  </data>
+  <data name="PropositionSuggestionForComposant" xml:space="preserve">
+    <value>sur la gamme de tri actuelle</value>
+  </data>
+  <data name="PropositionSuggestionGammeTriForFinalProduct" xml:space="preserve">
+    <value>sur la gamme de tri actuelle</value>
+  </data>
+  <data name="QRAPChildren" xml:space="preserve">
+    <value>Liste QRAP Fils</value>
+  </data>
+  <data name="QRQC" xml:space="preserve">
+    <value>E-QRAP</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Qualité</value>
+  </data>
+  <data name="Quand" xml:space="preserve">
+    <value>Quand ?</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantités</value>
+  </data>
+  <data name="QuePass" xml:space="preserve">
+    <value>Que s'est il passé ?</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Qui" xml:space="preserve">
+    <value>Qui a détecté le problème?</value>
+  </data>
+  <data name="Rapport" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="RapportEQRQC" xml:space="preserve">
+    <value>Rapport e-QRAP</value>
+  </data>
+  <data name="ReactiveInstruction" xml:space="preserve">
+    <value>La QualiOne a réactivé automatiquement le défaut</value>
+  </data>
+  <data name="Realiser" xml:space="preserve">
+    <value>Réaliser</value>
+  </data>
+  <data name="ReccurentOuiNom" xml:space="preserve">
+    <value>Probléme Récurrent Ou Non</value>
+  </data>
+  <data name="ReclamationClient" xml:space="preserve">
+    <value>Réclamation Client</value>
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Remarque</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Retirer</value>
+  </data>
+  <data name="Reponse" xml:space="preserve">
+    <value>Comment cela a-t-il été vérifié?</value>
+  </data>
+  <data name="Respect" xml:space="preserve">
+    <value>Standard respecté?</value>
+  </data>
+  <data name="Retourliste" xml:space="preserve">
+    <value>Retour à la liste</value>
+  </data>
+  <data name="SaisieEquipe" xml:space="preserve">
+    <value>Saisie Equipe</value>
+  </data>
+  <data name="Securisations" xml:space="preserve">
+    <value>Sécurisations</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>Sécurité</value>
+  </data>
+  <data name="SelectEQRQC" xml:space="preserve">
+    <value>Sélectionner le-QRAP de Societe</value>
+  </data>
+  <data name="SelectFinalProduct" xml:space="preserve">
+    <value>Sélectionner un Produit Fini</value>
+  </data>
+  <data name="SelectionOrigine" xml:space="preserve">
+    <value>Sélectionner l'Origine</value>
+  </data>
+  <data name="SelectionProbleme" xml:space="preserve">
+    <value>sélectionner un problème</value>
+  </data>
+  <data name="Selectline" xml:space="preserve">
+    <value>Sélectionner une ligne</value>
+  </data>
+  <data name="SelectProject" xml:space="preserve">
+    <value>Sélectionner un projet</value>
+  </data>
+  <data name="SelectQuestion" xml:space="preserve">
+    <value>Sélectionner une question</value>
+  </data>
+  <data name="SelectSemiFinalProduct" xml:space="preserve">
+    <value>Selectionner un Produit Semi Fini</value>
+  </data>
+  <data name="SelectUser" xml:space="preserve">
+    <value>Sélectionner un Utilisateur</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="Statut" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="Suivant" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="SuiviEquipes" xml:space="preserve">
+    <value>Suivi 5 équipes</value>
+  </data>
+  <data name="svpChooseComposant" xml:space="preserve">
+    <value>SVP Choisir un composant</value>
+  </data>
+  <data name="Terminer" xml:space="preserve">
+    <value>Terminer</value>
+  </data>
+  <data name="TriComposants" xml:space="preserve">
+    <value>Tri sur Composants</value>
+  </data>
+  <data name="TrieSurComposant" xml:space="preserve">
+    <value>Tri Sur Composant</value>
+  </data>
+  <data name="TrieSurFinalProduct" xml:space="preserve">
+    <value>Tri Sur Final Product</value>
+  </data>
+  <data name="TriProduitFinie" xml:space="preserve">
+    <value>Tri sur Produit Fini</value>
+  </data>
+  <data name="TypeProblemes" xml:space="preserve">
+    <value>Type de Problème</value>
+  </data>
+  <data name="typeQRQC2D3D" xml:space="preserve">
+    <value>cette référence a plus d'un type de E-QRAP,veuillez en choisir une pour continuer</value>
+  </data>
+  <data name="UAP" xml:space="preserve">
+    <value>UAP</value>
+  </data>
+  <data name="Unselecttype" xml:space="preserve">
+    <value>Désélectionner le type</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="UpdateQRQC" xml:space="preserve">
+    <value>Modifier e-QRAP</value>
+  </data>
+  <data name="UpdateQRQCSegment" xml:space="preserve">
+    <value>Mettre à jour QRQC Segment</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Utilisateur</value>
+  </data>
+  <data name="Valide" xml:space="preserve">
+    <value>Valide</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Avertissement</value>
+  </data>
+  <data name="WarningSelectMission" xml:space="preserve">
+    <value>Sélectionner une mission dans la liste</value>
+  </data>
+</root>

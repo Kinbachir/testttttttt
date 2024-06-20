@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>Azione</value>
+  </data>
+  <data name="ActionHandler" xml:space="preserve">
+    <value>Gestore di azioni</value>
+  </data>
+  <data name="ActionHandlerAlert" xml:space="preserve">
+    <value>Portatore d'azione</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>azioni</value>
+  </data>
+  <data name="ActionsPlace" xml:space="preserve">
+    <value>Azioni in posizione</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>aggiungere</value>
+  </data>
+  <data name="addPoste" xml:space="preserve">
+    <value>Aggiungi post</value>
+  </data>
+  <data name="addReference" xml:space="preserve">
+    <value>Aggiungi riferimento</value>
+  </data>
+  <data name="AddRow" xml:space="preserve">
+    <value>Aggiungi riga</value>
+  </data>
+  <data name="addStep" xml:space="preserve">
+    <value>aggiungi passaggio</value>
+  </data>
+  <data name="AlertAjouterLigneAMDEC" xml:space="preserve">
+    <value>non puoi aggiungere finché c'è un'altra riga in fase di modifica</value>
+  </data>
+  <data name="AlertAjoutLigneAMDECiPR" xml:space="preserve">
+    <value>non puoi aggiungere finché c'è un'altra riga in fase di modifica</value>
+  </data>
+  <data name="AlertGoingFMEA" xml:space="preserve">
+    <value>Fare clic su OK per accedere a FMEA</value>
+  </data>
+  <data name="AlertModifierLigneAMDEC" xml:space="preserve">
+    <value>non puoi modificare fintanto che c'è un'altra riga in fase di modifica</value>
+  </data>
+  <data name="AlertModifierLigneAMDECiPR" xml:space="preserve">
+    <value>non puoi modificare questa riga perché l'ipr è inferiore a quello del tuo FMEA</value>
+  </data>
+  <data name="AlertSaveAMDEC" xml:space="preserve">
+    <value>non è possibile salvare finché c'è una riga in fase di modifica</value>
+  </data>
+  <data name="AlertSaveFlowchart" xml:space="preserve">
+    <value>Il diagramma di flusso è stato salvato</value>
+  </data>
+  <data name="alertSelectionReference" xml:space="preserve">
+    <value>non è possibile aggiungere prima di selezionare un Componente</value>
+  </data>
+  <data name="alertSupprimerPost" xml:space="preserve">
+    <value>non puoi eliminare questo post perché i seguenti post dipendono da esso</value>
+  </data>
+  <data name="AMDEC" xml:space="preserve">
+    <value>FMEA</value>
+  </data>
+  <data name="amdecAjouter" xml:space="preserve">
+    <value>L'aggiunta ha avuto successo</value>
+  </data>
+  <data name="amdecExist" xml:space="preserve">
+    <value>Il nome di AMDEC è già in uso, per favore cambialo</value>
+  </data>
+  <data name="amdecModifier" xml:space="preserve">
+    <value>La modifica è andata a buon fine</value>
+  </data>
+  <data name="AmdecNExiste" xml:space="preserve">
+    <value>Questo AmDec non esiste</value>
+  </data>
+  <data name="Analyse" xml:space="preserve">
+    <value>Analisi</value>
+  </data>
+  <data name="AnalysisCurrentFailureModes" xml:space="preserve">
+    <value>Analisi delle attuali attività di guasto</value>
+  </data>
+  <data name="Annulation" xml:space="preserve">
+    <value>Cancellazione</value>
+  </data>
+  <data name="AnnulerChangement" xml:space="preserve">
+    <value>Sei sicuro di annullare le modifiche per questa riga?</value>
+  </data>
+  <data name="AtteinteGrave" xml:space="preserve">
+    <value>(Danno (molto) grave)</value>
+  </data>
+  <data name="AtteinteMineure" xml:space="preserve">
+    <value>(Coinvolgimento minore)</value>
+  </data>
+  <data name="AtteinteMineureUser" xml:space="preserve">
+    <value>(Coinvolgimento minore)</value>
+  </data>
+  <data name="AtteinteSignificative" xml:space="preserve">
+    <value>(Coinvolgimento significativo)</value>
+  </data>
+  <data name="AtteinteTerminale" xml:space="preserve">
+    <value>(Danno grave)</value>
+  </data>
+  <data name="AtteinteTerminaleUtilisateur" xml:space="preserve">
+    <value>(Danno (molto) grave)</value>
+  </data>
+  <data name="AtteinteTresGrave" xml:space="preserve">
+    <value>(Danno (molto) grave)</value>
+  </data>
+  <data name="BackDetails" xml:space="preserve">
+    <value>Ritorno ai dettagli</value>
+  </data>
+  <data name="BackListFMEADesign" xml:space="preserve">
+    <value>Elenco dei prodotti FMEA</value>
+  </data>
+  <data name="BackListFMEAProcess" xml:space="preserve">
+    <value>Elenco dei processi FMEA</value>
+  </data>
+  <data name="Basse" xml:space="preserve">
+    <value>(Basse: pas d’occurrence)</value>
+  </data>
+  <data name="BearerAction" xml:space="preserve">
+    <value>Portatore dell'azione</value>
+  </data>
+  <data name="changedSave" xml:space="preserve">
+    <value>Hai applicato le modifiche, vuoi salvarle?</value>
+  </data>
+  <data name="ChangeFMEA" xml:space="preserve">
+    <value>Cosa hai cambiato in questa fmea?</value>
+  </data>
+  <data name="ChoisirDeadLine" xml:space="preserve">
+    <value>Scegli una DeadLine</value>
+  </data>
+  <data name="ChoisirPorteur" xml:space="preserve">
+    <value>Scegli un azionista</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Chiudere</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Scherma</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Conferma</value>
+  </data>
+  <data name="ConfirmClosedFMEADesign" xml:space="preserve">
+    <value>È sicuro di voler chiudere questo prodotto FMEA?</value>
+  </data>
+  <data name="ConfirmClosedFMEAProcess" xml:space="preserve">
+    <value>È sicuro di voler chiudere questo processo FMEA?</value>
+  </data>
+  <data name="ConfirmDelFMEADesign" xml:space="preserve">
+    <value>È sicuro di voler eliminare questo prodotto FMEA?</value>
+  </data>
+  <data name="ConfirmDelFMEAProcess" xml:space="preserve">
+    <value>È sicuro di voler eliminare questo processo FMEA?</value>
+  </data>
+  <data name="ConfirmOpenFMEADesign" xml:space="preserve">
+    <value>È sicuro di voler riaprire questo prodotto FMEA?</value>
+  </data>
+  <data name="ConfirmOpenFMEAProcess" xml:space="preserve">
+    <value>È sicuro di voler riaprire questo processo FMEA?</value>
+  </data>
+  <data name="ConfirmUpdateClosedFMEADesign" xml:space="preserve">
+    <value>Questo prodotto FMEA è chiuso, è sicuro di volerlo modificare?</value>
+  </data>
+  <data name="ConfirmUpdateClosedFMEAProcess" xml:space="preserve">
+    <value>Questo processo FMEA è chiuso, è sicuro di volerlo modificare?</value>
+  </data>
+  <data name="Consult" xml:space="preserve">
+    <value>Consultare</value>
+  </data>
+  <data name="CreateFMEADesign" xml:space="preserve">
+    <value>Creare un prodotto FMEA</value>
+  </data>
+  <data name="CreateFMEAProcess" xml:space="preserve">
+    <value>Creare un processo FMEA</value>
+  </data>
+  <data name="CurrentProcessControls" xml:space="preserve">
+    <value>Controlli di processo attuali</value>
+  </data>
+  <data name="DateofCreation" xml:space="preserve">
+    <value>Data di creazione</value>
+  </data>
+  <data name="DateofLastUpdate" xml:space="preserve">
+    <value>Data dell'ultimo aggiornamento</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Scadenza</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Rimuovere</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="Design" xml:space="preserve">
+    <value>Prodotto</value>
+  </data>
+  <data name="Designation" xml:space="preserve">
+    <value>Designazione</value>
+  </data>
+  <data name="Detection" xml:space="preserve">
+    <value>Rilevamento</value>
+  </data>
+  <data name="DetectionImpossible" xml:space="preserve">
+    <value>Rilevamento non possibile nel sistema</value>
+  </data>
+  <data name="DetectionParEtapes" xml:space="preserve">
+    <value>Rilevamento in fasi</value>
+  </data>
+  <data name="Diffusions" xml:space="preserve">
+    <value>Trasmissioni</value>
+  </data>
+  <data name="DocumentFrequent" xml:space="preserve">
+    <value>Documentato e frequente</value>
+  </data>
+  <data name="documentPlacehodler" xml:space="preserve">
+    <value>Descrive il suo documento</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modificare</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Editore</value>
+  </data>
+  <data name="EffectsPotentialFailure" xml:space="preserve">
+    <value>Effetti di un potenziale fallimento</value>
+  </data>
+  <data name="EleveDocumente" xml:space="preserve">
+    <value>(Alto / documentato, ma poco frequente)</value>
+  </data>
+  <data name="EleveSysteme" xml:space="preserve">
+    <value>(Alto, Il sistema rileva sempre l'errore)</value>
+  </data>
+  <data name="Enclosed" xml:space="preserve">
+    <value>Chiuso</value>
+  </data>
+  <data name="enregisterSucce" xml:space="preserve">
+    <value>Registrato con successo</value>
+  </data>
+  <data name="EnterNewIndice" xml:space="preserve">
+    <value>Inserisci il tuo nuovo indizio</value>
+  </data>
+  <data name="ErreurPratiquement" xml:space="preserve">
+    <value>(Quasi certo errore)</value>
+  </data>
+  <data name="Etape" xml:space="preserve">
+    <value>Passo</value>
+  </data>
+  <data name="etapePlaceholder" xml:space="preserve">
+    <value>Descrive il suo passo</value>
+  </data>
+  <data name="FinalProduct" xml:space="preserve">
+    <value>Prodotto finale</value>
+  </data>
+  <data name="FinalProducts" xml:space="preserve">
+    <value>Prodotti finali</value>
+  </data>
+  <data name="Flowchart" xml:space="preserve">
+    <value>Diagramma di processo</value>
+  </data>
+  <data name="FMEA" xml:space="preserve">
+    <value>FMEA</value>
+  </data>
+  <data name="FMEADesign" xml:space="preserve">
+    <value>Prodotto FMEA</value>
+  </data>
+  <data name="FMEADesignCreated" xml:space="preserve">
+    <value>Prodotto FMEA has been created</value>
+  </data>
+  <data name="FMEADesignDetails" xml:space="preserve">
+    <value>Dettagli del prodotto FMEA</value>
+  </data>
+  <data name="FMEADesignIndice" xml:space="preserve">
+    <value>Indice dei prodotti FMEA</value>
+  </data>
+  <data name="FMEADesignName" xml:space="preserve">
+    <value>Nome del prodotto FMEA</value>
+  </data>
+  <data name="FMEADesignReference" xml:space="preserve">
+    <value>Nome del prodotto FMEA</value>
+  </data>
+  <data name="FMEAProcess" xml:space="preserve">
+    <value>Processo FMEA</value>
+  </data>
+  <data name="FMEAProcessCreated" xml:space="preserve">
+    <value>Processo FMEA a été créé</value>
+  </data>
+  <data name="FMEAProcessDetails" xml:space="preserve">
+    <value>Dettagli del prodotto FMEA</value>
+  </data>
+  <data name="FMEAProcessIndice" xml:space="preserve">
+    <value>Indice dei prodotti FMEA</value>
+  </data>
+  <data name="FMEAProcessName" xml:space="preserve">
+    <value>Nome del processo FMEA</value>
+  </data>
+  <data name="GraviteParEtapes" xml:space="preserve">
+    <value>Gravità in scena</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>Nome del gruppo</value>
+  </data>
+  <data name="HistoriqueFMEADesign" xml:space="preserve">
+    <value>Storia del prodotto FMEA</value>
+  </data>
+  <data name="HistoriqueFMEAProcess" xml:space="preserve">
+    <value>Storia del processo FMEA</value>
+  </data>
+  <data name="Holder" xml:space="preserve">
+    <value>Titolare</value>
+  </data>
+  <data name="Implementation" xml:space="preserve">
+    <value>Implementazione</value>
+  </data>
+  <data name="Indice" xml:space="preserve">
+    <value>Indice</value>
+  </data>
+  <data name="Inexistante" xml:space="preserve">
+    <value>Inesistente</value>
+  </data>
+  <data name="IPR" xml:space="preserve">
+    <value>Rischio (IPR)</value>
+  </data>
+  <data name="IPRApres" xml:space="preserve">
+    <value>IPR dopo</value>
+  </data>
+  <data name="IPRAvant" xml:space="preserve">
+    <value>IPR prima</value>
+  </data>
+  <data name="IPRAvantApres" xml:space="preserve">
+    <value>IPR prima &amp; dopo</value>
+  </data>
+  <data name="Legere" xml:space="preserve">
+    <value>(Leggero: può influire sul sistema, Problema sistemico)</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Linea</value>
+  </data>
+  <data name="Lines" xml:space="preserve">
+    <value>Linee</value>
+  </data>
+  <data name="ListFMEADesign" xml:space="preserve">
+    <value>Elenco dei prodotti FMEA</value>
+  </data>
+  <data name="ListFMEAProcess" xml:space="preserve">
+    <value>Elenco dei processi FMEA</value>
+  </data>
+  <data name="Mail address" xml:space="preserve">
+    <value>Indirizzo mail</value>
+  </data>
+  <data name="ModereProbabilitEleve" xml:space="preserve">
+    <value>(Probabilità moderata alta di rilevamento prima di raggiungere il cliente)</value>
+  </data>
+  <data name="Modification" xml:space="preserve">
+    <value>Modificazione</value>
+  </data>
+  <data name="Modifier Composant" xml:space="preserve">
+    <value>aggiungi componente</value>
+  </data>
+  <data name="moyenPlaceholder" xml:space="preserve">
+    <value>Descrivi il tuo strumento ...</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="NewFMEADesign" xml:space="preserve">
+    <value>Nuovo prodotto FMEA</value>
+  </data>
+  <data name="NewFMEAProcess" xml:space="preserve">
+    <value>Nuovo processo FMEA</value>
+  </data>
+  <data name="NoAccesClotureFMEA" xml:space="preserve">
+    <value>non hai il diritto di chiudere questo AMDEC</value>
+  </data>
+  <data name="NoAccesDelete" xml:space="preserve">
+    <value>non hai il diritto di eliminare questo FMEA</value>
+  </data>
+  <data name="NoAccesUpdate" xml:space="preserve">
+    <value>non hai il diritto di modificare questo FMEA</value>
+  </data>
+  <data name="NotClosedActions" xml:space="preserve">
+    <value>Elenco delle azioni non chiuse</value>
+  </data>
+  <data name="NotValidated" xml:space="preserve">
+    <value>Inatteso</value>
+  </data>
+  <data name="OccurenceBySteps" xml:space="preserve">
+    <value>Evento in più fasi</value>
+  </data>
+  <data name="Occurrence" xml:space="preserve">
+    <value>Avvenimento</value>
+  </data>
+  <data name="Participants" xml:space="preserve">
+    <value>I partecipanti</value>
+  </data>
+  <data name="PossibleCausesFailure" xml:space="preserve">
+    <value>Possibili cause di errore</value>
+  </data>
+  <data name="PossibleModere" xml:space="preserve">
+    <value>(Possibile / Moderato: nessun dato esistente)</value>
+  </data>
+  <data name="Poste" xml:space="preserve">
+    <value>Posto</value>
+  </data>
+  <data name="postePlaceholder" xml:space="preserve">
+    <value>Desriva il tuo posto</value>
+  </data>
+  <data name="PotentialFailureMode" xml:space="preserve">
+    <value>Modalità di potenziale fallimento</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priorità</value>
+  </data>
+  <data name="ProbabiliteBasse" xml:space="preserve">
+    <value>(Bassa: bassa probabilità di rilevamento)</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>in lavorazione</value>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>Nome del progetto</value>
+  </data>
+  <data name="Projects" xml:space="preserve">
+    <value>Progetti</value>
+  </data>
+  <data name="RecommendedActions" xml:space="preserve">
+    <value>Azioni consigliate</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Componente</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Componente</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Rimuovere</value>
+  </data>
+  <data name="Retour" xml:space="preserve">
+    <value>Ritorno</value>
+  </data>
+  <data name="Risque" xml:space="preserve">
+    <value>Rischio</value>
+  </data>
+  <data name="RowEdit" xml:space="preserve">
+    <value>Modifica riga</value>
+  </data>
+  <data name="RowSave" xml:space="preserve">
+    <value>Salva riga</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Salvare</value>
+  </data>
+  <data name="SaveFlowchart" xml:space="preserve">
+    <value>Salvare il diagramma di processo</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Cercare</value>
+  </data>
+  <data name="SelectDiffusion" xml:space="preserve">
+    <value>Aggiungere una trasmissione</value>
+  </data>
+  <data name="SelectFinalProduct" xml:space="preserve">
+    <value>Selezionare un prodotto finito</value>
+  </data>
+  <data name="Selectline" xml:space="preserve">
+    <value>Selezionare una linea</value>
+  </data>
+  <data name="SelectParticipant" xml:space="preserve">
+    <value>Selezionare un partecipante</value>
+  </data>
+  <data name="SelectProject" xml:space="preserve">
+    <value>Selezioni un progetto</value>
+  </data>
+  <data name="SelectReference" xml:space="preserve">
+    <value>Selezioni un componente</value>
+  </data>
+  <data name="Severity" xml:space="preserve">
+    <value>Gravità</value>
+  </data>
+  <data name="SimilarFinalProduct" xml:space="preserve">
+    <value>Prodotto finito simile</value>
+  </data>
+  <data name="SimilarReference" xml:space="preserve">
+    <value>Riferimento simile</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistiche</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="Suppression" xml:space="preserve">
+    <value>Removal</value>
+  </data>
+  <data name="SupprimerLigne" xml:space="preserve">
+    <value>Sei sicuro di cancellare questa riga</value>
+  </data>
+  <data name="SupprimerLigneAMDECiPr" xml:space="preserve">
+    <value>non puoi cancellare questa riga perché l'ipr è inferiore a quello del tuo FMEA</value>
+  </data>
+  <data name="SupprimerLigneDiagrammeProcessus" xml:space="preserve">
+    <value>non è possibile eliminare questa riga perché proviene dal diagramma di processo</value>
+  </data>
+  <data name="SystemiqueMajeur" xml:space="preserve">
+    <value>(Sistemica maggiore: può interessare il paziente)</value>
+  </data>
+  <data name="SystemiqueMajeurUser" xml:space="preserve">
+    <value>(Sistemico maggiore: può influenzare l\'utente)</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>tavolo</value>
+  </data>
+  <data name="TresEleve" xml:space="preserve">
+    <value>(Molto alto)</value>
+  </data>
+  <data name="TresGrave" xml:space="preserve">
+    <value>(Grave menomazione)</value>
+  </data>
+  <data name="UpdateFMEADesign" xml:space="preserve">
+    <value>Aggiornare prodotto FMEA</value>
+  </data>
+  <data name="UpdateFMEAProcess" xml:space="preserve">
+    <value>Aggiornare processo FMEA</value>
+  </data>
+  <data name="UserAcess" xml:space="preserve">
+    <value>Accesso utente</value>
+  </data>
+  <data name="ViewFMEADesign" xml:space="preserve">
+    <value>Vedere prodotto FMEA</value>
+  </data>
+  <data name="ViewFMEAProcess" xml:space="preserve">
+    <value>Vedere processo FMEA</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Avvertimento</value>
+  </data>
+  <data name="WarningSelectFMEADesign" xml:space="preserve">
+    <value>Selezionare un prodotto FMEA dall'elenco</value>
+  </data>
+  <data name="WarningSelectFMEAProcess" xml:space="preserve">
+    <value>Selezionare un processo FMEA dall'elenco</value>
+  </data>
+  <data name="workforcePlaceholder" xml:space="preserve">
+    <value>Descriva la sua forza lavoro…</value>
+  </data>
+</root>
